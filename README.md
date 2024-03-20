@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 * Winnie Yvelise Brandao Moret 
 * William
-* Jessica
+* Jessica Cristina Araújo Lima de Melo
 * Cassia
 * Hiago
 * Thiago
