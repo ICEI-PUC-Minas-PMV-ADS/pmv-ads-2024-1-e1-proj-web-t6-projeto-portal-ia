@@ -1,12 +1,12 @@
 # Portal IA
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projetos`
 
-`SEMESTRE`
+`Eixo 1`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
+Criação de um site/plataforma onde as pessoas possam aprender sobre os diferentes tipos de IAs.
 
 ## Integrantes
 
