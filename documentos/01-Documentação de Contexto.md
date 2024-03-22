@@ -1,6 +1,10 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+[ Introdução
+A inteligência artificial (I.A) é um campo da ciência da computação que se concentra no desenvolvimento de sistemas capazes de executar tarefas que normalmente exigiriam inteligência humana. Através de algoritmos e modelos, a I.A tem o potencial de automatizar processos, resolver problemas complexos e até mesmo simular o pensamento humano.
+Dessa maneira, ela se constitui enquanto alicerce da inovação na computação moderna agregando valor para indivíduos e empresas. 
+Nos últimos anos, a Inteligência Artificial tem se destacado como uma das tecnologias mais promissoras e transformadoras em diversos setores. Segundo uma pesquisa publicada pela Internacional Data Company (IDC) (JYOTI,2022), a I.A está revolucionando a forma como as empresas operam, oferecendo oportunidades sem precedentes para automatizar processos, otimizar o desempenho e impulsionar a inovação. No campo acadêmico, a tecnologia também se encontra presente. A pesquisa promovida pelo grupo Chegg (2023), demonstra que pouco mais da metade dos universitários já utilizam inteligência artificial para pesquisas acadêmicas, seja para entender conceitos ou matérias (59%), gerar rascunhos de trabalhos (53%) ou pesquisar conteúdo para trabalhos ou projetos (52%).
+No entanto, para muitos indivíduos e organizações, a complexidade e a variedade de opções disponíveis podem tornar desafiador o processo de identificar e selecionar a forma mais adequada de I.A para atender às suas necessidades específicas. ]
 
 ## Problema
 [Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
