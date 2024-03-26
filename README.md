@@ -10,7 +10,7 @@ Criação de um site/plataforma onde as pessoas possam aprender sobre os diferen
 
 ## Integrantes
 
-* Winnie Yvelise Brandao Moret 
+* Winnie Yvelise Brandao 
 * William
 * Jessica Cristina Araújo Lima de Melo
 * Cassia
