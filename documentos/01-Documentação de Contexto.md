@@ -32,8 +32,11 @@ Com o crescente número de soluções baseadas em IA disponíveis, é fundamenta
 ## Público-Alvo
 
 •	Pessoas interessadas no avanço da tecnologia e no impacto das Inteligências Artificiais em nossas vidas;
+
 •	Estudantes e acadêmicos especialmente aqueles envolvidos em pesquisas ou estudos que poderiam se beneficiar do uso das I.A;
+
 •	Indivíduos que estão considerando ou já estão implementando I.A em seus negócios;
+
 •	Pessoas que não estão familiarizadas com as I.A e desejam entender melhor seu funcionamento e aplicação.
 
 
