@@ -13,7 +13,7 @@ Criação de um site/plataforma onde as pessoas possam aprender sobre os diferen
 * Winnie Yvelise Brandao 
 * William
 * Jessica Cristina Araújo Lima de Melo
-* Cassia
+* Cássia de Arruda Nicolau Santos
 * Hiago
 * Thiago
 
