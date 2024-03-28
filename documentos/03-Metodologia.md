@@ -1,16 +1,13 @@
 
 # Metodologia
-
-Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
+Nesta parte, falaremos sobre como será a distribuição da equipe e quais ferramentas serão utilizadas para a administração dos artefatos.
 
 
 ### Gerenciamento de Projeto
-
 A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade, estrutura clara e flexibilidade. É fácil de entender e implementar, fornecendo uma estrutura definida com papéis, eventos e artefatos.
 
 
 ### Divisão de Papéis
-
 - Scrum Master: Jéssica Cristina.
 - Product Owner: Winnie Yvelise.
 - Equipe de Desenvolvimento: Hiago Antonio, Tiago Marques, Cássia de Arruda.
@@ -18,7 +15,6 @@ A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade
 
 
 ### Processo
-
 - Backlog: Lista os itens do Product Backlog.
 - To Do: Lista os itens do Sprint Backlog que ainda não foram iniciados.
 - In Progress: Lista os itens do Sprint Backlog que estão sendo trabalhados/desenvolvidos.
@@ -32,7 +28,6 @@ A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade
 
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
-
 <ul>
   <li>Development</li>
   <li>Project Management</li>
@@ -46,7 +41,6 @@ A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade
 
   
 ### Ferramentas
-
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
@@ -59,5 +53,4 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 
 ### Estratégia de Organização de Codificação 
-
 Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto do site deverão ser inseridos na pasta [codigo-fonte](http://https://github.com/ICEI-PUC-Minas-PMV-ADS/WebApplicationProject-Template-v2/tree/main/codigo-fonte). Consulte também a nossa sugestão referente a estratégia de organização de codificação a ser adotada pela equipe de desenvolvimento do projeto.
