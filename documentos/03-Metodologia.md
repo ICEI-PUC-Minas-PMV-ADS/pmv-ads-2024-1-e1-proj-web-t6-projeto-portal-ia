@@ -34,10 +34,10 @@ A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
 
 <ul>
-  <li>Bug</li>
   <li>Development</li>
-  <li>Documentation</li>
   <li>Project Management</li>
+  <li>Bug</li>
+  <li>Documentation</li>
   <li>Infrastructure</li>
   <li>Test</li>
 </ul>
