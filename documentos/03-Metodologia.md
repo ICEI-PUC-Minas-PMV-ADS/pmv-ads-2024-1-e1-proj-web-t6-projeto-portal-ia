@@ -4,7 +4,7 @@
 Esta seção descreve a organização da equipe para a execução das tarefas do projeto e as ferramentas utilizadas para a manutenção dos códigos e demais artefatos.
 
 
-## Gerenciamento de Projeto
+### Gerenciamento de Projeto
 
 A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade, estrutura clara e flexibilidade. É fácil de entender e implementar, fornecendo uma estrutura definida com papéis, eventos e artefatos.
 
@@ -27,7 +27,7 @@ A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade
 - Testing: Lista os itens do Sprint Backlog que estão sendo testados pela equipe de qualidade.
 - Done: Lista os itens do Sprint Backlog que foram concluídos e atenderam aos requisitos e critérios estabelecidos.
 
-imagem do board.
+![board](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/2991a5a6-c0b1-4fa6-a3d7-f425a280bad3)
 
 
 ### Etiquetas
@@ -42,12 +42,7 @@ imagem do board.
   <li>Test</li>
 </ul>
 
-<figure> 
-  <img src="https://user-images.githubusercontent.com/100447878/164068979-9eed46e1-9b44-461e-ab88-c2388e6767a1.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
-</figure> 
-
-![board](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/2991a5a6-c0b1-4fa6-a3d7-f425a280bad3)
+![etiquetas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/ec60c620-dc10-4776-bea1-88f3e93316e2)
 
   
 ### Ferramentas
