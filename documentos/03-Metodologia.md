@@ -3,8 +3,10 @@
 Nesta parte, falaremos sobre como será a distribuição da equipe e quais ferramentas serão utilizadas para a administração dos artefatos.
 
 
+
 ### Gerenciamento de Projeto
 A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade, estrutura clara e flexibilidade. É fácil de entender e implementar, fornecendo uma estrutura definida com papéis, eventos e artefatos.
+
 
 
 ### Divisão de Papéis
@@ -12,6 +14,7 @@ A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade
 - Product Owner: Winnie Yvelise.
 - Equipe de Desenvolvimento: Hiago Antonio, Tiago Marques, Cássia de Arruda.
 - Equipe de Design: Willian Carlos.
+
 
 
 ### Processo
@@ -26,8 +29,9 @@ A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade
 ![board](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/2991a5a6-c0b1-4fa6-a3d7-f425a280bad3)
 
 
+
 ### Etiquetas
-<p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
+<p>As atividades são também classificadas de acordo com o tipo de tarefa e seguem o seguinte sistema:</p>
 <ul>
   <li>Development</li>
   <li>Project Management</li>
@@ -39,7 +43,8 @@ A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade
 
 ![etiquetas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/ec60c620-dc10-4776-bea1-88f3e93316e2)
 
-  
+
+
 ### Ferramentas
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
@@ -50,6 +55,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | Projeto de Interface                | Figma                              | http://....                            |
 | Gerenciamento do Projeto            | Trello                             | http://....                            |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
+
 
 
 ### Estratégia de Organização de Codificação 
