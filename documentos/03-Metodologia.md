@@ -47,6 +47,8 @@ imagem do board.
     <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
 
+![board](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/2991a5a6-c0b1-4fa6-a3d7-f425a280bad3)
+
   
 ### Ferramentas
 
