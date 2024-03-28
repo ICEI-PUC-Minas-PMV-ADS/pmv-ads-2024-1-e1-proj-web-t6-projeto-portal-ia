@@ -20,7 +20,7 @@ A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade
 - In Progress: Lista os itens do Sprint Backlog que estão sendo trabalhados/desenvolvidos.
 - Code Review: Lista os artefatos que deverão ser revisados por outros membros da equipe.
 - To Test: Lista os artefatos que estão prontos para passar pelo processo de teste.
-- Testing: Lista os itens do Sprint Backlog que estão sendo testados pela equipe de qualidade.
+- Testing: Lista os itens do Sprint Backlog que estão sendo testados por outros membros da equipe.
 - Done: Lista os itens do Sprint Backlog que foram concluídos e atenderam aos requisitos e critérios estabelecidos.
 
 ![board](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/2991a5a6-c0b1-4fa6-a3d7-f425a280bad3)
