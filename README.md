@@ -1,4 +1,4 @@
-# Portal IA
+# AI Explorer
 
 `Análise e Desenvolvimento de Sistemas`
 
@@ -12,7 +12,7 @@ Criação de um site/plataforma onde as pessoas possam aprender sobre os diferen
 
 * Winnie Yvelise Brandao 
 * William
-* Jessica Cristina Araújo Lima de Melo
+* Jéssica Cristina Araújo Lima de Melo
 * Cássia de Arruda Nicolau Santos
 * Hiago
 * Thiago
