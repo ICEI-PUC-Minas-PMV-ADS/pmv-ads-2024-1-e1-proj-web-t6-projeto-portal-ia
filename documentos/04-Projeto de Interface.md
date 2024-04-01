@@ -17,6 +17,10 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 <img width="2096" alt="(6)Fluxo_de_usuário_tela_de_cadastro" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/2862a37b-0e5d-4c76-9889-07388e9edc7c">
 
+<img width="1712" alt="(7)Fluxo_de_usuário_tela_de_perfil" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164094991/490e3264-fd3c-4a33-b86b-37cf53f6df97">
+
+<img width="1552" alt="(8)Fluxo_de_usuário_fórum" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164094991/66b25026-fb07-4d70-ae9f-7aff221b9708">
+
 ## Protótipo
 
 Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
