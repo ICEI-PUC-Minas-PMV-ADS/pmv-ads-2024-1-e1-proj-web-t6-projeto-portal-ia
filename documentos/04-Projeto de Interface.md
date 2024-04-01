@@ -31,7 +31,7 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 
 #### Wireframe/Tela de login
 
-<img width="3328" alt="Wireframe_tela_de_login" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/a3c3ebcf-b39b-4d21-a363-12026def3822">
+<img width="3328" alt="Wireframe_tela_de_cadastro" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164094991/694bb503-331d-4459-b325-22f393090f4f">
 
 #### Wireframe/Tela de cadastro
 
