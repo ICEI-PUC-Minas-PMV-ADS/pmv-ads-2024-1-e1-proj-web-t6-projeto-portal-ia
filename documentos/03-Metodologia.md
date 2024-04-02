@@ -46,7 +46,7 @@ Os elementos essenciais do projeto são criados usando várias plataformas, e a 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                     |
 |-------------------------------------|------------------------------------|------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://encurtador.com.br/ekxy8    |
-| Documentos do projeto               | GitHub                             | https://encurtador.com.br/hBRU3    |
+| Documentos do projeto               | GitHub                             | https://encurtador.com.br/ekxy8    |
 | Projeto de Interface                | Figma                              |
 | Gerenciamento do Projeto            | Trello                             | https://encurtador.com.br/fhvZ1    |
 | Hospedagem                          | GitHub Pages                       | a definir...                       |
