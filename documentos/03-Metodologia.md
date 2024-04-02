@@ -10,7 +10,7 @@ A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade
 ### Divisão de Papéis
 - Scrum Master: Jéssica Cristina.
 - Product Owner: Winnie Yvelise.
-- Equipe de Desenvolvimento: Hiago Antonio, Tiago Marques, Cássia de Arruda.
+- Equipe de Desenvolvimento: Hiago Antonio, Tiago Marques, Cássia de Arruda, Willian Carlos, Jéssica Cristina e Winnie Yvelise.
 - Equipe de Design: Willian Carlos.
 
 
@@ -43,9 +43,10 @@ A metodologia ágil escolhida foi o Scrum. Scrum se destaca por sua simplicidade
 ### Ferramentas
 Os elementos essenciais do projeto são criados usando várias plataformas, e a tabela a seguir mostra a conexão entre os ambientes e suas finalidades correspondentes.
 
-| AMBIENTE                            | PLATAFORMA                         |
-|-------------------------------------|------------------------------------|
-| Repositório de código fonte         | GitHub                             |
-| Documentos do projeto               | GitHub                             |
+| AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                     |
+|-------------------------------------|------------------------------------|------------------------------------|
+| Repositório de código fonte         | GitHub                             | https://encurtador.com.br/ekxy8    |
+| Documentos do projeto               | GitHub                             | https://encurtador.com.br/hBRU3    |
 | Projeto de Interface                | Figma                              |
-| Gerenciamento do Projeto            | Trello                             |
+| Gerenciamento do Projeto            | Trello                             | https://encurtador.com.br/fhvZ1    |
+| Hospedagem                          | GitHub Pages                       | a definir...                       |
