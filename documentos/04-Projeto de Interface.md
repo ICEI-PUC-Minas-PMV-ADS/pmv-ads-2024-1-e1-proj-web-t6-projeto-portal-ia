@@ -49,6 +49,9 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 
 #### Wireframe | Esqueci a senha
 
+<img width="4808" alt="Projeto PUCMinas _ Eixo 1 - Fluxo do usuário" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164056803/e9df696f-0c18-4a86-98da-be4a37bdf02d">
+
+
 #### Wireframe | Tela de cadastro
 
 <img width="1616" alt="3 - cadastro" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/30c12aee-9174-4d7c-a4af-e011ba0a3081">
