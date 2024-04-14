@@ -64,6 +64,9 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 
 #### Wireframe | Tela de resultados
 
+![Wireframe tela resultados](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164094991/ae646a8c-b9fd-4da6-bafb-3c5e6013ab27)
+
+
 #### Wireframe | Fórum 
 
 <img width="3136" alt="7 - forum" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/6941c2ae-9bf0-490a-91b1-a89b390be517">
