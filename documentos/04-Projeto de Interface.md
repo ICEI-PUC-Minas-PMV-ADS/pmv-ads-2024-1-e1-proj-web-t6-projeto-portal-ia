@@ -45,12 +45,22 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 
 #### Wireframe | Tela de login
 
-<img width="3328" alt="Wireframe_tela_de_login" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/27e2dd2e-1b98-474f-bc4a-8169aa1c4509">
+<img width="1616" alt="1 - login" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/04f4deea-4070-4f38-abe7-461a3e4070c9">
+
+#### Wireframe | Esqueci a senha
 
 #### Wireframe | Tela de cadastro
 
-<img width="3328" alt="Wireframe_tela_de_cadastro" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164094991/b8ee4570-1130-479d-be4f-d673f001d9a3">
+<img width="1616" alt="3 - cadastro" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/30c12aee-9174-4d7c-a4af-e011ba0a3081">
 
 #### Wireframe | Tela de perfil
 
-<img width="1872" alt="Wireframe_Tela_de_Perfil" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/27bfb5ec-e897-43a0-a989-21663f7209cf">
+<img width="1616" alt="4 - perfil" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/a7b776b5-4d67-475f-bb2d-d6c25b3e7a7c">
+
+#### Wireframe | Tela inicial
+
+#### Wireframe | Esqueci de resultados
+
+#### Wireframe | Fórum 
+
+<img width="3136" alt="7 - forum" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/6941c2ae-9bf0-490a-91b1-a89b390be517">
