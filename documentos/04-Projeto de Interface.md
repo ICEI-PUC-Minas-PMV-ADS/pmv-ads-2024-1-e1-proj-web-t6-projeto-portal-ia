@@ -59,7 +59,7 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 
 #### Wireframe | Tela inicial
 
-#### Wireframe | Esqueci de resultados
+#### Wireframe | Tela de resultados
 
 #### Wireframe | Fórum 
 
