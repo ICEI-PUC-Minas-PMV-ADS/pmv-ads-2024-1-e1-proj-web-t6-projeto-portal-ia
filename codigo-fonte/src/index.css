@@ -1,0 +1,16 @@
+body {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #510682, #6b1386, #82218a, #972f8e, #ab3f92);
+    margin: 0;
+    font-family: montserrat;
+    color: #fafafa;
+}
+
+img {
+    width: px;
+    margin: 2em auto;
+}
+
+.drop-down .icones-drop {
+    width: 1em;
+}
