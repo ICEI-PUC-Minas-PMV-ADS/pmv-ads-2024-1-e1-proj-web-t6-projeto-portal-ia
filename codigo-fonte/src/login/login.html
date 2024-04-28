@@ -6,30 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="../index.css">
+    <script type="text/javascript" src="./login.js"></script>
     <title>Login</title>
 </head>
 
 <body>
-
     <div class="login-box">
         <h3>Login</h3>
-        <form class="formulario">
+        <form class="formulario" onsubmit="mostrarAlerta(event)">
             <input type="text" placeholder="Login" id="Login">
             <input type="password" placeholder="Senha" id="senha">
-            <input type="submit">
+            <p class="esqueceu-senha">Esqueci a senha</p>
+            <div class="confirmar">
+                <button>confirmar</button>
+            </div>
         </form>
-    
+
         <div class="rede-social">
-            <button onclick="click()">Google</button>
-            <button>Facebook</button>
+            <img src="../assets/images/google.png" alt="Google" onclick="clickGoogle()">
+            <img src="../assets/images/facebook.png" alt="Facebook" onclick="clickFacebook()">
         </div>
         <div>
             <p>Não tem uma conta ainda?</p>
         </div>
-        <div class="cadastro-botao"> 
+        <div class="cadastro-botao">
             <button class="cadastro">Cadastre-se</button>
         </div>
-        
+        <div>
+            <img class="boneca" src="../assets/images/login.png" alt="login">
+        </div>
     </div>
 
 </body>
