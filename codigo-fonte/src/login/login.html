@@ -6,43 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./login.css">
-    <title>Login JS</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            width: 100%;
-            height: 100%;
-        }
-
-        form {
-            width: 300px;
-            margin: 200px auto;
-            text-align: center;
-        }
-
-        input {
-            Display: block;
-            margin: 10px auto;
-            width: 250px;
-            height: 30px;
-
-
-        }
-    </style>
+    <title>Login</title>
 </head>
 
 <body>
 
-    <form>
+    <div class="login-box">
         <h3>Login</h3>
-        <input type="text" placeholder="Login" id="Login">
-        <input type="password" placeholder="Senha" id="senha">
-        <input type="submit">
-    </form>
+        <form class="formulario">
+            <input type="text" placeholder="Login" id="Login">
+            <input type="password" placeholder="Senha" id="senha">
+            <input type="submit">
+        </form>
+    
+        <div class="rede-social">
+            <button onclick="click()">Google</button>
+            <button>Facebook</button>
+        </div>
+        <div>
+            <p>Não tem uma conta ainda?</p>
+        </div>
+        <div class="cadastro-botao"> 
+            <button class="cadastro">Cadastre-se</button>
+        </div>
+        
+    </div>
 
 </body>
 
