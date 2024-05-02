@@ -8,7 +8,7 @@ function mostrarAlerta(event) {
 }
 
 function clickGoogle() {
-    alert("Conecte o Login")
+    alert("Conecte o Google")
 }
 
 function clickFacebook() {
