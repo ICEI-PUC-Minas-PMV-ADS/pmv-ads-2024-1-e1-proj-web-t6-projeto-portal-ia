@@ -1,0 +1,99 @@
+header {
+    background-color: #2D0D42;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+.login-box {
+    background-color: #2D0D42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 410px;
+    height: 433px;
+    padding-top: 2px;
+    border: 1px solid rgb(70, 33, 172);
+    border-radius: 10px;
+}
+
+input {
+    Display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+}
+
+.cadastro {
+    font-size: 22px;
+    color: white;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #2D0D42;
+}
+
+
+.formulario {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input {
+    margin: 5px 0;
+    width: 80%;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+
+.cadastro-botao {
+    padding-bottom: 25px
+}
+
+.confirmar button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 35px;
+    font-size: 18px;
+    background: linear-gradient(to top, #820AD1, #31D5EE);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;/
+}
+
+.boneca {
+    position: relative;
+    /* left: 0; */
+    height: 270px;
+    bottom: 250px;
+    right: 200px;
+}
+
+.rede-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rede-social img {
+    width: 100px;
+    margin: 0 5px;
+    cursor: pointer;
+}
