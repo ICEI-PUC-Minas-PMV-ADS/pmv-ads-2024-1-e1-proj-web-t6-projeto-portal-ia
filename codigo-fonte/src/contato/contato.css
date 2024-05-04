@@ -1,0 +1,119 @@
+.contato-background {
+    width: 100% !important;
+    background-image: linear-gradient(to bottom, #510682, #6b1386, #82218a, #972f8e, #ab3f92) !important;
+    margin: 0 !important;
+    font-weight: 500 !important;
+}
+
+.dropdownLayout {
+    width: 60% !important; 
+    display: flex !important; 
+    justify-content: center !important;
+}
+
+.buttonLayout {
+    width: 40% !important; 
+    display: flex !important; 
+    justify-content: right !important;
+}
+
+.buttonStyle {
+    margin-left: 1% !important; 
+    background-color: transparent !important; 
+    border-color: white !important; 
+    color: white !important; 
+    font-weight: 500 !important;
+}
+
+.cardStyle {
+    width: 20rem;
+}
+
+.miniMLeft {
+    margin-left: 2% !important;
+}
+
+.miniMRight {
+    margin-right: 2% !important;
+}
+
+.secondMiniMLeft {
+    margin-left: 5% !important;
+}
+
+.thirdMiniMLeft {
+    margin-left: 6% !important;
+}
+
+.secondMiniMRight {
+    margin-right: 6% !important;
+}
+
+.miniMTop {
+    margin-top: 2% !important;
+}
+
+.smallMTop {
+    margin-top: 5% !important;
+}
+
+.smallMLeft {
+    margin-left: 10% !important;
+}
+
+.smallMRight {
+    margin-right: 10% !important;
+}
+
+.mediumMLeft {
+    margin-left: 20% !important;
+}
+
+.mediumMRight {
+    margin-right: 20% !important;
+}
+
+.blackColor {
+    color: black !important;
+}
+
+.whiteColor {
+    color: white !important;
+}
+
+.revertM {
+    margin: revert !important;
+}
+
+.justifyCenter {
+    display: flex !important; 
+    justify-content: center !important;
+}
+
+.allWidth {
+    width: 100% !important;
+}
+
+.halfWidth {
+    width: 50% !important;
+}
+
+.oneThird {
+    width: 33%;
+}
+
+.titleSize {
+    font-size: 30px;
+}
+
+.sixtyWidth {
+    width: 60%;
+}
+
+.twentyHeight {
+    height: 20%;
+}
+
+.miniMBottom {
+    margin-bottom: 5%;
+}
