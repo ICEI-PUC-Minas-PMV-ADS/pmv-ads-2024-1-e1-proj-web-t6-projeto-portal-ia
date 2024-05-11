@@ -5,39 +5,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets/favicon.ico">
+    <link href="https: //fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./login.css">
-    <link rel="stylesheet" href="../index.css">
-    <script type="text/javascript" src="./login.js"></script>
-    <title>Login</title>
+    <script type="module" src="./login.js"></script>
+
+    <title>AI.Explorer | Login</title>
 </head>
 
 <body>
-    <div class="login-box">
-        <h3>Login</h3>
-        <form class="formulario" onsubmit="mostrarAlerta(event)">
-            <input type="text" placeholder="Login" id="Login">
-            <input type="password" placeholder="Senha" id="senha">
-            <p class="esqueceu-senha">Esqueci a senha</p>
-            <div class="confirmar">
-                <button>confirmar</button>
-            </div>
-        </form>
 
-        <div class="rede-social">
-            <img src="../assets/images/google.png" alt="Google" onclick="clickGoogle()">
-            <img src="../assets/images/facebook.png" alt="Facebook" onclick="clickFacebook()">
+    <main>
+        <div class="wrapper">
+            <h3>Login</h3>
+
+            <section class="secao-login">
+                <form class="formulario" onsubmit="mostrarAlerta(event)">
+                    <div class="email">
+                        <input type="text" placeholder="E-mail ou telefone" id="Login">
+                        <i class="email"></i>
+                    </div>
+                    <div class="senha mt-3">
+                        <input type="password" placeholder="Senha" id="senha">
+                        <i class="icon-senha">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M1.18164 12C2.12215 6.87976 6.60812 3 12.0003 3C17.3924 3 21.8784 6.87976 22.8189 12C21.8784 17.1202 17.3924 21 12.0003 21C6.60812 21 2.12215 17.1202 1.18164 12ZM12.0003 17C14.7617 17 17.0003 14.7614 17.0003 12C17.0003 9.23858 14.7617 7 12.0003 7C9.23884 7 7.00026 9.23858 7.00026 12C7.00026 14.7614 9.23884 17 12.0003 17ZM12.0003 15C10.3434 15 9.00026 13.6569 9.00026 12C9.00026 10.3431 10.3434 9 12.0003 9C13.6571 9 15.0003 10.3431 15.0003 12C15.0003 13.6569 13.6571 15 12.0003 15Z">
+                                </path>
+                            </svg>
+                        </i>
+                    </div>
+                    <a class="esqueci-senha" href="#">Esqueci a senha</a>
+
+                    <div class="confirmar">
+                        <button class="btn-gradient">Confirmar</button>
+                    </div>
+                </form>
+
+                <div class="rede-social">
+                    <button class="btn btn-secundario">Google</button>
+                    <button class="btn btn-secundario">Facebook</button>
+                </div>
+            </section>
+
+            <section class="secao-cadastro">
+                <div class="texto">
+                    <p>Não tem uma conta ainda?</p>
+                </div>
+                <div class="cadastro mt-3">
+                    <a href="#">Cadastre-se</a>
+                </div>
+            </section>
         </div>
         <div>
-            <p>Não tem uma conta ainda?</p>
+            <img class="boneca" src="../assets/imagens/login.png" alt="login">
         </div>
-        <div class="cadastro-botao">
-            <button class="cadastro">Cadastre-se</button>
         </div>
-        <div>
-            <img class="boneca" src="../assets/images/login.png" alt="login">
-        </div>
-    </div>
+    </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
