@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to top, #ab3f92, #a33695, #9a2e98, #8f269b, #82209f, #751c98, #681990, #5b1589, #4e1175, #410e62, #350a50, #29073e);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    padding: 8;
+    display: flex;
+    align-items: center;
+}
+
+.fundo-vidro {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 70px -70px 70px rgba(194, 194, 194, 0.1) inset, -70px 70px 70px rgba(255, 255, 255, 0.1) inset;
+    backdrop-filter: blur(140px);
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.cadastro {
+    width: 90%;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil img {
+    width: 140px;
+}
