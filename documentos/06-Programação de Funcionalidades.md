@@ -44,20 +44,24 @@ ________________________________________________________________________________
 
 #### Requisito atendido
 
-RF-13: A aplicação deve conter tela de perfil
+RF-13: A aplicação deve conter tela de perfil.
+
 O site deve permitir ao usuário verificar as informações registradas no cadastro na pagina de perfil, após fazer o login, bem como alterar/atualizar suas informações. 
 
 
 #### Artefatos da funcionalidade
 
 peril.css
+
 perfil.html
+
 perfil.js
 
 
 #### Estrutura de Dados
 
-codigo-fonte/src/perfil/perfil.css 
+[codigo-fonte/src/perfil/perfil.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/7c26a263aa0e10402d585680de50c74c00a2b8bc/codigo-fonte/src/perfil/perfil.html)
+[codigo-fonte/src/perfil/perfil.css](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/7c26a263aa0e10402d585680de50c74c00a2b8bc/codigo-fonte/src/perfil/perfil.css)
 
 
 #### Instruções de acesso
