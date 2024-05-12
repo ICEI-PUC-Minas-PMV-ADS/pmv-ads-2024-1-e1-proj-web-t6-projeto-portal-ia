@@ -33,3 +33,38 @@ Acessar tela de contato através de botão no header.
 #### Responsável
 
 Cássia de Arruda Nicolau Santos
+
+___________________________________________________________________________________________________________
+
+### Tela de perfil
+
+
+![WhatsApp Image 2024-05-11 at 18 35 50](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164056803/1a56d30b-d392-4c04-8d8c-f6f3ec4da3a2)
+
+
+#### Requisito atendido
+
+RF-13: A aplicação deve conter tela de perfil
+O site deve permitir ao usuário verificar as informações registradas no cadastro na pagina de perfil, após fazer o login, bem como alterar/atualizar suas informações. 
+
+
+#### Artefatos da funcionalidade
+
+peril.css
+perfil.html
+perfil.js
+
+
+#### Estrutura de Dados
+
+codigo-fonte/src/perfil/perfil.css 
+
+
+#### Instruções de acesso
+
+Na tela inicial, faça login na parte superior a direita para ter acesso a tela de perfil e suas configurações ou abra o navegador de internet de sua preferencia e informe a seguinte url: http://127.0.0.1:5500/codigo-fonte/src/perfil/perfil.html
+
+
+#### Responsável
+
+Winnie Yvelise Brandao
