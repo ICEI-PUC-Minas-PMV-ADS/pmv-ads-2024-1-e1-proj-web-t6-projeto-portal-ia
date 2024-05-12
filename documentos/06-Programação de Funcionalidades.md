@@ -78,7 +78,7 @@ ________________________________________________________________________________
 
 
 
-### Tela de perfil
+### Tela de Resultados
 
 
 ![Captura de tela 2024-05-12 165508](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164094991/34443192-a1b1-4444-b690-3da019da0a36)
@@ -93,24 +93,29 @@ RF-04	O site deverá conter filtros por palavras chaves.
 
 #### Artefatos da funcionalidade
 
-peril.css
+resultados.css
 
-perfil.html
+resultados.html
 
-perfil.js
+resultados.js
 
 
 #### Estrutura de Dados
 
-pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/codigo-fonte/src/resultados
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/codigo-fonte/src/resultados
 /resultados.css
-pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/codigo-fonte/src/resultados
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/codigo-fonte/src/resultados
 /resultados.html
 
 
 #### Instruções de acesso
 
 Faça a primeira pesquisa na caixa de busca ou dropdown, que será encaminhado para tela de resultado e terão acesso a outras palavras chaves para um filtro
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/codigo-fonte/src/resultados
+/resultados.html
+
+
 
 
 #### Responsável
