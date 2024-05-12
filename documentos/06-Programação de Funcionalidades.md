@@ -117,3 +117,46 @@ Faça a primeira pesquisa na caixa de busca ou dropdown, que será encaminhado p
 
 Willian Carlos de Abreu
 
+
+___________________________________________________________________________________________________________
+
+
+
+### Tela de cadastro
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164048685/fd6ca32d-356c-4fd0-ae3c-88033ad12ac8)
+
+
+
+
+#### Requisito atendido
+
+RF-05	O software deve ser capaz de aceitar a entrada de dados no formato de texto.
+RF-09	O site deve-se conter tela para cadastro de usuários.
+
+
+#### Artefatos da funcionalidade
+
+index.css
+
+index.html
+
+script.js
+
+
+#### Estrutura de Dados
+
+[pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/codigo-fonte/src/resultados
+/resultados.css
+pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/codigo-fonte/src/resultados
+/resultados.html
+](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/tree/Cadastro/codigo-fonte/src/cadastro)
+
+#### Instruções de acesso
+
+Insira seus dados em cada caixa conforme as instruções que aparecerão. Depois, confira se tudo está preenchido corretamente e o cadastro está liberado, apertando o botão "Cadastrar".
+
+#### Responsável
+
+Tiago Marques Leite
+
