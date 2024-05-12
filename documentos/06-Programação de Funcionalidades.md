@@ -2,43 +2,34 @@
 
 Implementação da aplicação descritas por meio dos requisitos codificados. 
 
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
+### Tela de contato
 
-### Título da funcionalidade
+![telaContato](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/000ca792-3f8d-44c1-8640-ddb65d8191ce)
 
-[Adicione imagem da funcionalidade/tela]
+![telaContato2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/52d48985-9f82-4f11-b09d-31bc4183c6cb)
 
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+RF-06: O site apresentará um campo destinado a contato com a equipe responsável pelo projeto.
+
+RF-07: Será necessária uma área de contato para suporte.
 
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+contato.css
 
+contato.html
 
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
+contato.js
 
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+Acessar tela de contato através de botão no header.
 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
-
-
-
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
+Cássia de Arruda Nicolau Santos
