@@ -61,6 +61,7 @@ perfil.js
 #### Estrutura de Dados
 
 [codigo-fonte/src/perfil/perfil.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/7c26a263aa0e10402d585680de50c74c00a2b8bc/codigo-fonte/src/perfil/perfil.html)
+
 [codigo-fonte/src/perfil/perfil.css](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/7c26a263aa0e10402d585680de50c74c00a2b8bc/codigo-fonte/src/perfil/perfil.css)
 
 
