@@ -60,6 +60,18 @@ main>.wrapper {
     border-radius: 15px;
 }
 
+.voltar {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.voltar a {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
 section.secao-login {
     width: 60%;
     display: flex;

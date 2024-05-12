@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./assets/favicon.ico">
+    <link rel="icon" href="./assets/favicon-ICON.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="assets/fontes/varino/Varino - Normal.ttf">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="./index.css" rel="stylesheet">
@@ -23,194 +23,335 @@
 <body>
 
     <!-- cabeçalho -->
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid p-3 ps-5 pe-5">
-
-                <!-- logo -->
-                <a class="navbar-expand" href="./index.html">
-                    <img src="./assets/logo.svg" alt="Logo" height="20" class="d-inline-block align-text-top">
-                </a>
-
-                <a class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </a>
-
-                <div class="ml-8 collapse navbar-collapse" id="navbarSupportedContent">
-
-                    <!-- navegação dropdown -->
-                    <ul class="navbar-nav me-auto d-flex gap-2">
-
-                        <!-- texto -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Texto
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="https://chatgpt.com/" target="_blank">ChatGPT</a>
-                                </li>
-                                <li><a class="dropdown-item" href="https://chatgpt.com/" target="_blank">Gemini</a></li>
-                                <li>
-                                </li>
-                                <li><a class="dropdown-item" href="https://sapienschat.com/" target="_blank">Sapiens
-                                        Chat</a></li>
-                            </ul>
-                        </li>
-
-                        <!-- tradução -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Tradução
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="https://chatgpt.com/" target="_blank">Google
-                                        Tradutor</a></li>
-                                <li><a class="dropdown-item" href="https://quillbot.com/" target="_blank">QuillBot</a>
-                                </li>
-                                <li><a class="dropdown-item" href="https://sider.ai/" target="_blank">Sider.AI</a></li>
-                            </ul>
-                        </li>
-
-                        <!-- imagem -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Imagem
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="https://openart.ai/create"
-                                        target="_blank">OpenArt</a></li>
-                                <li><a class="dropdown-item" href="https://gencraft.com/generate"
-                                        target="_blank">Gencraft</a></li>
-                                <li><a class="dropdown-item" href="https://copilot.microsoft.com/"
-                                        target="_blank">Copilot</a></li>
-                            </ul>
-                        </li>
-
-                        <!-- vídeo -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown dropdown-toggle" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Vídeo
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="https://pt.vidnoz.com/">Vidnoz AI</a></li>
-                                <li><a class="dropdown-item" href="https://www.veed.io/">Veed.IO</a></li>
-                                <li><a class="dropdown-item" href="https://www.flexclip.com/pt/">FlexClip</a></li>
-                                <li><a class="dropdown-item" href="https://videogen.io/">VideoGen</a></li>
-                                <li><a class="dropdown-item" href="https://pika.art/home">Pika</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-
-                    <!-- navegação da página -->
-                    <ul class="navbar-nav d-flex gap-3">
-
-                        <!-- contato -->
-                        <li>
-                            <a class="btn outline btn-outline-light-purple" href="./cadastro/cadastro.html"
-                                target="_blank">Contato</a>
-                        </li>
-                        <!-- descubra -->
-                        <li>
-                            <a class="btn outline btn-outline-light-purple" href="./resultados/resultados.html"
-                                target="_blank">Descubra</a>
-                        </li>
-                        <!-- fórum -->
-                        <li>
-                            <button class="btn outline btn-outline-light-purple" href="./login/login.html"
-                                target="_blank">Fórum</button>
-                        </li>
-                        <!-- Login -->
-                        <li>
-                            <button class="btn btn-gradient btn-md" href="./login/login.html"
-                                target="_blank">Login</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <hr>
-    </header>
+    <header id="header"></header>
 
     <!-- seção pesquisa -->
     <main class="secao-pesquisa d-flex justify-content-center align-items-center">
-        <div class="wrapper">
+        <video src="assets/videos/bg.mp4" autoplay loop muted>Seu
+            navegador não
+            suporta a TAG vídeo</video>
+
+        <div class="wrapper1">
             <!-- navegação -->
             <nav class=" d-flex justify-content-center align-items-center">
                 <!-- botão introcução -->
                 <a class="btn-gradient" href="#introducao">Introdução</a>
                 <!-- botão entretenimento -->
-                <a class="btn-gradient" href="#">Entretenimento</a>
+                <a class="btn-gradient" href="#entretenimento">Entretenimento</a>
                 <!-- botão galeria -->
-                <a class="btn-gradient" href="#">Galeria</a>
+                <a class="btn-gradient" href="#galeria">Galeria</a>
             </nav>
             <div class="pesquisa">
                 <h1><span>EXPLORE</span> O MUNDO DAS I<span>A</span>s</h1>
-                <h4 class="text-center">Descubra os diferentes tipos e como cada um pode ajudar você.</h4>
-                <input id="searchbar" type="text" placeholder="Buscar..." name="searchbar">
+                <h4 class="text-center">Descubra os diferentes tipos e como cada uma pode ajudar você.</h4>
+                <div class="campo-pesquisa">
+                    <i class="ri-search-line ri-2x"></i>
+                    <input id="searchbar" type="text" placeholder="Pesquisar..." name="searchbar">
+                </div>
             </div>
         </div>
     </main>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+    <!-- seção introdução -->
     <section id="introducao" class="secao-introducao">
-        <div>
-            <div><iframe class="m-5 d-flex justify-content-center" width="560" height="315"
-                    src="https://www.youtube.com/embed/XNfsfmjFh6E?si=B86tuXb9I1lt1tLT" title="YouTube video player"
-                    frameborder="0"
+        <div class="linha wrapper">
+            <div class="container-titulo">
+                <h2>
+                    <span>Descubra</span> como funciona uma I.<span>A</span>
+                </h2>
+                <h4>
+                    Veja no vídeo a seguir um pouco sobre Inteligência Artificial </h4>
+            </div>
+            <div class="container-video">
+                <iframe width="515" height="315" src="https://www.youtube.com/embed/XNfsfmjFh6E?si=B86tuXb9I1lt1tLT"
+                    title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+                <img class="bonecas" src="assets/ilustracoes/bonecas.svg" alt="">
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section id="entretenimento" class="secao-entretenimento">
+        <div class="wrapper">
+
+            <div class="container-titulo">
+                <h2>
+                    <span>Recomendações</span> de filmes e séries
+                </h2>
+                <h4>
+                    Descubra o próximo filme perfeito para assistir que envolve Inteligência Artificial </h4>
+            </div>
+            <div class="marquee d-flex align-items-center justify-content-center">
+                <ul class="marquee-container">
+                    <!-- ex-machina -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/1.jpg" alt="Filme Ex_Machina">
+                            <h6>Ex Machina: Instinto Artificial</h6>
+                            <p>Drama, Suspense e Ficção Científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.7/10</p>
+                                </div>
+                                <p>Filme.2014 | 1h48min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0470752/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_ex"
+                                target="_blank">Confirma
+                                o
+                                traler</a>
+                        </li>
+                    </div>
+                    <!-- matrix -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/3.jpg" alt="Filme Ex_Machina">
+                            <h6>Matrix</h6>
+                            <p>Ação e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.7/10</p>
+                                </div>
+                                <p>Filme . 1999 | 2h16min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt0133093/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_matrix"
+                                target="_blank">Confirma
+                                o
+                                traler</a>
+                        </li>
+                    </div>
+                    <!-- wall e -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/2.jpg" alt="Filme Ex_Machina">
+                            <h6>WALL·E</h6>
+                            <p>Animação, Aventura e Família</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.4/10</p>
+                                </div>
+                                <p>Filme . 2008 | 1H38min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt0910970/?ref_=nv_sr_srsg_4_tt_5_nm_3_q_wall%2520e"
+                                target="_blank">Confirma
+                                o
+                                traler</a>
+                        </li>
+                    </div>
+                    <!-- transcendence -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/4.jpg" alt="Filme Ex_Machina">
+                            <h6>Transcendence: A Revolução</h6>
+                            <p>Drama, Ação e ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>6.2/10</p>
+                                </div>
+                                <p>Filme . 2014 | 1h59min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt2209764/?ref_=nv_sr_srsg_0_tt_1_nm_0_q_Transcendence%253A%2520A%2520Revolu%25C3%25A7%25C3%25A3o"
+                                target="_blank">Confirma
+                                o
+                                traler</a>
+                        </li>
+
+                    </div>
+                    <!-- ela -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/5.jpg" alt="Filme Ex_Machina">
+                            <h6>Ela</h6>
+                            <p>Drama, Romance e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.0/10</p>
+                                </div>
+                                <p>Filme . 2013 | 2h06min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt1798709/?ref_=nv_sr_srsg_6_tt_2_nm_6_q_Ela"
+                                target="_blank">Confirma
+                                o
+                                traler</a>
+                        </li>
+                    </div>
+                    <!-- minority report - a nova lei -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/8.jpg" alt="Filme Ex_Machina">
+                            <h6>Minority Report - A Nova Lei</h6>
+                            <p>Ação, Policial e Mistério </p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.6/10</p>
+                                </div>
+                                <p>Filme . 2002 | 2h25min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0181689/?ref_=fn_al_tt_1"
+                                target="_blank">Confirma
+                                o
+                                traler</a>
+                        </li>
+                    </div>
+            </div>
+        </div>
+
+
+
+        <video src="assets/videos/bg-3.mp4" loop autoplay muted></video>
+    </section>
+
+
+    <section id="galeria" class="secao-galeria">
+        <div class="wrapper">
+            <div class="container-titulo">
+                <h2>
+                    Uma <span>Jornada Visual</span> com Arte Gerada por <span>Inteligência Artificial</span>
+                </h2>
+                <h4>
+                    Foi usado o Gencraft para gerar todas as imagens abaixo </h4>
+            </div>
+            <div class="galeria">
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-1.jpg" alt="Imagem gerada por IA #1">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-2.jpg" alt="Imagem gerada por IA #2">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-3.jpg" alt="Imagem gerada por IA #3">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-4.jpg" alt="Imagem gerada por IA #4">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-5.png" alt="Imagem gerada por IA #5">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-6.png" alt="Imagem gerada por IA #6">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-7.png" alt="Imagem gerada por IA #7">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-8.png" alt="Imagem gerada por IA #8">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-9.png" alt="Imagem gerada por IA #9">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-10.png" alt="Imagem gerada por IA #10">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-11.png" alt="Imagem gerada por IA #11">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-12.png" alt="Imagem gerada por IA #12">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-13.png" alt="Imagem gerada por IA #13">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-14.png" alt="Imagem gerada por IA #14">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-15.png" alt="Imagem gerada por IA #15">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-16.png" alt="Imagem gerada por IA #16">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-17.png" alt="Imagem gerada por IA #17">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-18.png" alt="Imagem gerada por IA #18">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-19.png" alt="Imagem gerada por IA #19">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-20.png" alt="Imagem gerada por IA #20">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-21.png" alt="Imagem gerada por IA #21">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-22.png" alt="Imagem gerada por IA #22">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-23.png" alt="Imagem gerada por IA #23">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-24.png" alt="Imagem gerada por IA #24">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-25.png" alt="Imagem gerada por IA #25">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-26.png" alt="Imagem gerada por IA #26">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-27.png" alt="Imagem gerada por IA #27">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-28.png" alt="Imagem gerada por IA #28">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-29.png" alt="Imagem gerada por IA #29">
+                </figure>
+
+                <figure>
+                    <img src="./assets/galeria/imagem-ia-30.png" alt="Imagem gerada por IA #30">
+                </figure>
+
+            </div>
         </div>
     </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <hr>
     <footer>
-        <hr>
-        <img src="./assets/ilustrações/Group 238537.svg" alt="">
-        <p>© Turma 6 - Puc Minas 2024. Todos os direitos reservados.</p>
+        <p class="m-0">© Turma 6 - Puc Minas 2024. Todos os direitos reservados.</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-
-
-
     <script src="./index.js"></script>
 </body>
 
