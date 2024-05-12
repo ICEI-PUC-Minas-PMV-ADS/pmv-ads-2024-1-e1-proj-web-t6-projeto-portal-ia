@@ -67,7 +67,7 @@ perfil.js
 
 #### Instruções de acesso
 
-Na tela inicial, faça login na parte superior a direita para ter acesso a tela de perfil e suas configurações ou abra o navegador de internet de sua preferencia e informe a seguinte url: http://127.0.0.1:5500/codigo-fonte/src/perfil/perfil.html
+Na tela inicial, faça login na parte superior a direita para ter acesso a tela de perfil e suas configurações ou abra o navegador de internet de sua preferencia e informe a seguinte url: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/codigo-fonte/src/perfil/perfil.html
 
 
 #### Responsável
