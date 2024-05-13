@@ -162,4 +162,41 @@ Insira seus dados em cada caixa conforme as instruções que aparecerão. Depois
 #### Responsável
 
 Tiago Marques Leite
+___________________________________________________________________________________________________________
+
+
+### Tela de Login
+
+![tel de login ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164113066/a7b252c8-4026-4f5d-9d64-77a2337a94e9)
+
+
+
+#### Requisito atendido
+
+RF-10	O site deve permitir que o usuário faça login em sua conta.
+
+
+#### Artefatos da funcionalidade
+
+login.css
+
+login.html
+
+login.js
+
+
+#### Estrutura de Dados
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/main/codigo-fonte/src/login/login.html
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/main/codigo-fonte/src/login/login.css
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/main/codigo-fonte/src/perfil/perfil.js
+
+
+#### Instruções de acesso
+Na tela inicial, o usuário deve se dirigir para a parte superior direita para acessar a tela de login. Se já estiver cadastrado, poderá fazer login; caso contrário, deverá se cadastrar no site.
+
+#### Responsável
+
+Hiago Antonio Tavares
+
 
