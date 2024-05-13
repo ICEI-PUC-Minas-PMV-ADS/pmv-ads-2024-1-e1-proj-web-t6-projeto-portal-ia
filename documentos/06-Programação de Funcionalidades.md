@@ -102,16 +102,16 @@ resultados.js
 
 #### Estrutura de Dados
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/9f0f7b97ccea13011cf47bc4facd6f967de75441/codigo-fonte/src/resultados/resultados.css
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/0d944494805dd16c5240ed73dc1c5418036ca207/codigo-fonte/src/resultados/resultados.css
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/4cc0fd3f043fed7230c39e000bb6836577b55257/codigo-fonte/src/resultados/resultados.html
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/0d944494805dd16c5240ed73dc1c5418036ca207/codigo-fonte/src/resultados/resultados.html
 
 
 #### Instruções de acesso
 
 Faça a primeira pesquisa na caixa de busca ou dropdown, que será encaminhado para tela de resultado e terão acesso a outras palavras chaves para um filtro
 
-[/resultados.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/4cc0fd3f043fed7230c39e000bb6836577b55257/codigo-fonte/src/resultados/resultados.html)
+codigo-fonte/src/resultados/resultados.html
 
 
 
