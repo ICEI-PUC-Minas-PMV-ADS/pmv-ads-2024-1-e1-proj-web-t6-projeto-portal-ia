@@ -31,9 +31,9 @@ As estruturas de dados foram baseadas em HTML, CSS e JS.
 
 #### Estrutura de Dados
 
- - codigo-fonte/src/index.html
- - codigo-fonte/src/index.css
- - codigo-fonte/src/index.js
+ - [codigo-fonte/src/index.css](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/5ac5be8e398e107a4ac366de8defaf317aeeca3a/codigo-fonte/src/index.css)
+ - [codigo-fonte/src/index.css](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/5ac5be8e398e107a4ac366de8defaf317aeeca3a/codigo-fonte/src/index.html)
+ - [codigo-fonte/src/index.js](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/blob/5ac5be8e398e107a4ac366de8defaf317aeeca3a/codigo-fonte/src/index.js)
 
 #### Instruções de acesso
 
