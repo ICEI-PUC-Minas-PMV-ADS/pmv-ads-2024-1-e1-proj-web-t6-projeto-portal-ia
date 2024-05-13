@@ -111,7 +111,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-
 
 Faça a primeira pesquisa na caixa de busca ou dropdown, que será encaminhado para tela de resultado e terão acesso a outras palavras chaves para um filtro
 
-codigo-fonte/src/resultados/resultados.html
+ https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/codigo-fonte/src/resultados/resultados.html
 
 
 
