@@ -1,3 +1,58 @@
+### Tela de perfil
+
+#### Seção pesquisa
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/c256d95a-4e8e-4ae6-8b01-92a0fc33b770)
+
+#### Seção introdução
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/c88efb49-0d8b-4c43-b482-cd0ce40acf14)
+
+#### Seção entretenimento
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/7a4693d0-82b7-4600-8c65-67a95a446179)
+
+#### Seção galeria
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/d085441e-f767-4923-beb6-965addf3c381)
+
+#### rodapé
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/6a49a064-e400-4571-900b-410ad04445ed)
+
+As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+#### Requisito atendido
+
+- RF-02: A aplicação deve conter um menu-suspeso(drop-down), para que seja interativo e intuitivo.
+- RF-03: A aplicação deve conter um campo de buscas e pesquisa.
+- RF-02: O software deve ser capaz de aceitar a entrega de dados no formato texto.
+
+#### Artefatos da funcionalidade
+
+- index.css
+- index.html
+- index.js
+
+#### Estrutura de Dados
+
+ - codigo-fonte/src/index.html
+ - codigo-fonte/src/index.css
+ - codigo-fonte/src/index.js
+
+#### Instruções de acesso
+
+Abra um navegador de Internet e informe a seguinte URL: https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/codigo-fonte/src/index.html
+
+- No canto superior direito da tela, terá acesso a página de login, contato, resultados e fórum.
+- No canto superior esquerdo da tela, terá acesso ao drop-down.
+- Na primeira parte da página terá um campo de pesquisa, que direciona o usuário a página de resultados.
+- Na segunda parte da página terá acesso a vídeo informativo.
+- Na terceira parte da página terá opções de filmes onde o usuário através de hiperlinks será redirecionado para uma nova aba com informações mais delhadas sobre o filme desejado.
+- Na quarta parte da página teremos uma galeria.
+- No final da página informações de copyright.
+
+#### Responsável
+
+**Jéssica Cristina Araújo Lima de Melo**
+
+___________________________________________________________________________________________________________
+
 # Programação de Funcionalidades
 
 Implementação da aplicação descritas por meio dos requisitos codificados. 
