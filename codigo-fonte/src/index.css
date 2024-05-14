@@ -358,11 +358,13 @@ main video {
     border-radius: 0.5rem;
     transition: transform 1s ease-in-out;
     transform: scale(1);
+    filter: grayscale(1);
 }
 
 .galeria img:hover {
     z-index: 1;
     transform: scale(1.5);
+    filter: grayscale(0);
 }
 
 /* footer - rodapé */
@@ -373,6 +375,20 @@ footer {
     align-items: center;
     margin: 0 auto;
     padding: 2rem 0;
+}
+
+.subir {
+    display: flex;
+    justify-content: end;
+    padding-right: 6rem;
+    margin-bottom: 2rem;
+}
+
+.subir a {
+    font-size: 3rem;
+    color: #fafafa;
+    text-decoration: none;
+
 }
 
 /* #820ad1 */
