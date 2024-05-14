@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - A.I Explorer</title>
+    <link rel="stylesheet" href="/cadastro-clone/codigo-fonte/src/cadastro/css/index.css" />
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="/cadastro-clone/codigo-fonte/src/cadastro/img/logo.png" alt="Logo I.A explorer" />
+        <div class="header-links">
+            <a href="https://www.marxists.org/">Home</a>
+            <a href="https://www.youtube.com/watch?v=AXKb8zaFwfI">Fórum</a>
+            <a href="https://www.youtube.com/watch?v=8cS9Zmm5FiU">Pesquisa</a>
+        </div>
+
+    </div>
+    <div class="container">
+        <img src="img/woman-register-page.png" alt="Mulher se registrando" />
+        <div class="card">
+            <h1>Crie sua conta</h1>
+            <div id="msgError"></div>
+            <div id="msgSuccess"></div>
+            <div class="label-float">
+                <input type="text" id="namePerson" placeholder=" " required />
+                <label id="labelName" for="namePerson">Nome Completo</label>
+            </div>
+
+            <div class="label-float">
+                <input type="text" id="userName" placeholder=" " required />
+                <label id="labelUsername" for="userName">Usuário</label>
+            </div>
+
+            <div class="label-float">
+                <input type="email" id="email" placeholder=" " required />
+                <label id="labelEmail" for="email">E-mail</label>
+            </div>
+
+            <div class="label-float">
+                <input type="tel" id="cellphoneNumber" placeholder=" " required />
+                <label id="labelCellphone" for="cellphoneNumber">Celular</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="passwordUser" placeholder=" " required />
+                <label id="labelPassword" for="passwordUser">Senha</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="passwordUserConfirm" placeholder=" " required />
+                <label id="labelPasswordConfirm" for="passwordUserConfirm">Confirmar senha</label>
+            </div>
+
+            <div class="justify-center">
+                <button onclick="register()">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
