@@ -1,14 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fórum Portal I.A - Seção Geral </title>
+    <link href="forum.css" rel="stylesheet">
 </head>
 
 <body>
+    <div class="top-bar">
+        <h1>
+            Fórum Portal I.A
+        </h1>
+    </div>
+    <div class="main">
+        <ol>
+        </ol>
+    </div>
+    <script src="forum.js"></script>
+    <script>
+        console.log(threads);
+        var container = document.querySelector('ol');
+        for (let thread of threads) {
+            var html = `
+            <li class="row">
+                <a href="thread.html?id=${thread.id}">
+                    <h4 class="title">
+                        ${thread.title}
+                    </h4>
+                    <div class="bottom">
+                        <p class="timestamp">
+                            ${new Date(thread.date).toLocaleString()}
+                        </p>
+                        <p class="comment-count">
+                            ${thread.comments.length} comments
+                        </p>
+                    </div>
+                </a>
+            </li>
+            `;
+            container.insertAdjacentHTML('beforeend', html);
+        }
+    </script>
 
+
+
+    <footer>
+        <p class="m-0">© Turma 6 - Puc Minas 2024. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>
