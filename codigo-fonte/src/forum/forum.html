@@ -4,19 +4,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fórum Portal I.A - Seção Geral </title>
-    <link href="forum.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="/codigo-fonte/src/contato/contato.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="top-bar">
-        <h1>
-            Fórum Portal I.A
-        </h1>
-    </div>
+<body class="contato-background">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-expand" href="./index.html">
+            <img src="/codigo-fonte/src/assets/logo.svg" alt="Logo" height="20" class="d-inline-block align-text-top">
+        </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justifyCenter" id="navbarSupportedContent">
+            <div class="dropdownLayout smallMLeft">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown smallMLeft smallMRight">
+                        <a class="nav-link dropdown-toggle whiteColor" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Texto
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Something</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown smallMRight">
+                        <a class="nav-link dropdown-toggle whiteColor" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tradução
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Something</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown smallMRight">
+                        <a class="nav-link dropdown-toggle whiteColor" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Imagens
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Something</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown smallMRight">
+                        <a class="nav-link dropdown-toggle whiteColor" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Vídeos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Something</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="miniMLeft buttonLayout">
+                <a href="/codigo-fonte/src/contato/contato.html">
+                    <button class="btn btn-outline-success my-2 my-sm-0 buttonStyle">Contato</button>
+                </a>
+                <a href="/codigo-fonte/src/resultados/resultados.html">
+                    <button class="btn btn-outline-success my-2 my-sm-0 buttonStyle">Descubra</button>
+                </a>
+                <a href="/codigo-fonte/src/forum/forum.html">
+                    <button class="btn btn-outline-success my-2 my-sm-0 buttonStyle">Fórum</button>
+                </a>
+                <a href="/codigo-fonte/src/login/login.html">
+                    <button class="btn btn-outline-success my-2 my-sm-0 buttonStyle">Login</button>
+                </a>
+            </div>
+        </div>
+    </nav>
     <div class="main">
-        <ol>
-        </ol>
+        <table class="allWidth whiteColor smallMTop">
+            <tr>
+                <p class="mediumMLeft smallMTop titleSize2 whiteColor" style="margin-left: 23% !important;">Fórum</p>
+            </tr>
+            <tr>
+                <ul class="list-group mediumMLeft smallMTop mediumMRight">
+                    <ol>
+                    </ol>
+                </ul>
+            </tr>
+        </table>
     </div>
     <script src="forum.js"></script>
     <script>
@@ -24,12 +92,12 @@
         var container = document.querySelector('ol');
         for (let thread of threads) {
             var html = `
-            <li class="row">
+            <li class="list-group-item" style="background-color: #efe0ff;">
                 <a href="thread.html?id=${thread.id}">
-                    <h4 class="title">
+                    <p style="font-size: 20px;">
                         ${thread.title}
-                    </h4>
-                    <div class="bottom">
+                    </p>
+                    <div style="font-size: 12px;">
                         <p class="timestamp">
                             ${new Date(thread.date).toLocaleString()}
                         </p>
@@ -44,11 +112,6 @@
         }
     </script>
 
-
-
-    <footer>
-        <p class="m-0">© Turma 6 - Puc Minas 2024. Todos os direitos reservados.</p>
-    </footer>
 </body>
 
 </html>

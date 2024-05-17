@@ -19,6 +19,7 @@ h1,
 h4,
 ol {
     margin: 0;
+    font-size: 20px !important;
 }
 
 p {
@@ -38,7 +39,7 @@ p {
 .bottom {
     display: flex;
     color: grey;
-    font-size: 12px;
+    font-size: 5px !important;
 }
 
 .timestamp {

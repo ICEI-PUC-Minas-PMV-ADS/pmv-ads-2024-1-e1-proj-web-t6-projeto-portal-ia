@@ -15,7 +15,7 @@ var defaultThreads = [
     },
     {
         id: 2,
-        title: "Quais são os impactos éticos e sociais da IA",
+        title: "Quais são os impactos éticos e sociais da IA?",
         author: "Tiago Marques",
         date: Date.now(),
         content: "Thread content 2",
@@ -43,7 +43,7 @@ var defaultThreads = [
     },
     {
         id: 4,
-        title: "Quais são as principais diferenças entre IA, machine learning e deep learning",
+        title: "Quais são as principais diferenças entre IA, machine learning e deep learning?",
         author: "Winie",
         date: Date.now(),
         content: "Thread content 2",
@@ -57,7 +57,7 @@ var defaultThreads = [
     },
     {
         id: 5,
-        title: "Quais são as aplicações práticas da IA no mundo real",
+        title: "Quais são as aplicações práticas da IA no mundo real?",
         author: "William",
         date: Date.now(),
         content: "Thread content 2",
@@ -66,6 +66,76 @@ var defaultThreads = [
                 author: "Henrique",
                 date: Date.now(),
                 content: "Variam de acordo com a necessidade do usuário."
+            },
+        ]
+    },
+    {
+        id: 6,
+        title: "Quais são as aplicações práticas da IA no mundo real?",
+        author: "Fulano1",
+        date: Date.now(),
+        content: "Thread content 2",
+        comments: [
+            {
+                author: "Fulano1",
+                date: Date.now(),
+                content: "Comentario1"
+            },
+        ]
+    },
+    {
+        id: 7,
+        title: "Quais são os principais desafios no desenvolvimento de Inteligência Artificial atualmente?",
+        author: "Fulano2",
+        date: Date.now(),
+        content: "Thread content 2",
+        comments: [
+            {
+                author: "Fulano2",
+                date: Date.now(),
+                content: "Comentario2"
+            },
+        ]
+    },
+    {
+        id: 8,
+        title: "Como a Inteligência Artificial pode transformar a indústria da saúde?",
+        author: "Fulano3",
+        date: Date.now(),
+        content: "Thread content 2",
+        comments: [
+            {
+                author: "Fulano3",
+                date: Date.now(),
+                content: "Comentario3"
+            },
+        ]
+    },
+    {
+        id: 9,
+        title: "Quais são as tendências emergentes na pesquisa e desenvolvimento de IA?",
+        author: "Fulano4",
+        date: Date.now(),
+        content: "Thread content 2",
+        comments: [
+            {
+                author: "Fulano4",
+                date: Date.now(),
+                content: "Comentario4"
+            },
+        ]
+    },
+    {
+        id: 10,
+        title: "Como a Inteligência Artificial está sendo utilizada na automação de processos industriais?",
+        author: "Fulano5",
+        date: Date.now(),
+        content: "Thread content 2",
+        comments: [
+            {
+                author: "Fulano5",
+                date: Date.now(),
+                content: "Comentario5"
             },
         ]
     },
