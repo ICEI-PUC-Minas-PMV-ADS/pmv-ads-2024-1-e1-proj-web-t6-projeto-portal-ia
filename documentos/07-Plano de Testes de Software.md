@@ -12,7 +12,15 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Objetivo do Teste | Validar que existe uma area destinada ao envio de mensagens ao suporte, area para a exibição dos meios de contato e apresentação da equipe responsável. |
 | Passos | 1 - Validar que todos os elementos gráficos estão na tela (mensagem, contato e equipe responsável). <br />2 - Na area de suporte, preencher campos "Email", "Mensagem". Após o preenchimento, fazer o envio do chamado clicando no botão "Enviar". |
 | Critérios de êxito | 1 - Que todos os elementos gráficos estejam presentes na tela. <br />2 - Que o usuário receba a seguinte mensagem de confirmação "Mensagem enviada com sucesso".  |
-| Responsável por elaborar do caso de Teste | Cássia de Arruda. |
+| Responsável | Cássia de Arruda. |
+
+|Caso de Teste    | CT-2 - Fórum - Listagem |
+|:---|:---|
+| Requisitos Associados | RF-12 |
+| Objetivo do Teste | Validar que os tópicos discutidos estejam listados da tela inicial do Fórum. |
+| Passos | 1 - Validar que todos os elementos gráficos estão na tela (listagem das discussões). <br />2 - Clicar no primeiro tópico da listagem.|
+| Critérios de êxito | 1 - Que todos os elementos gráficos estejam presentes na tela. <br />2 - Que o usuário seja direcionado a uma nova tela que exibe mais detalhes sobre a discussão escolhida.  |
+| Responsável | Cássia de Arruda. |
  
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
