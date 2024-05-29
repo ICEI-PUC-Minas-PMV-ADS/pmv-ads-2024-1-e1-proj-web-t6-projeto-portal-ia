@@ -70,6 +70,7 @@ RF-06: O site apresentará um campo destinado a contato com a equipe responsáve
 
 RF-07: Será necessária uma área de contato para suporte.
 
+RF-05 O software deve ser capaz de aceitar a entrada de dados no formato de texto.
 
 #### Artefatos da funcionalidade
 
