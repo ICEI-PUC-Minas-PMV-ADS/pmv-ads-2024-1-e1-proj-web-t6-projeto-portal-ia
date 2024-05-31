@@ -135,7 +135,7 @@ Facilidade de acesso a dúvidas sobre as I.As.</td>
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  O site terá imagens/vídeos intuitivas que guiem o usuário para a utilização do software.| ALTA| 
+| RF-01 |  O site terá imagens/vídeos intuitivas que guiem o usuário para a utilização do software.| NÃO IMPLEMENTADO, FORA DO ESCOPO ATUAL| 
 | RF-02 |  A aplicação deve conter um menu suspenso (drop down), para que seja interativo e intuitivo.| ALTA|
 | RF-03 |  A aplicação deve conter um campo de buscas e pesquisa.| ALTA| 
 | RF-04 |  O site deverá conter filtros por palavras chaves.| BAIXA| 
@@ -145,10 +145,10 @@ Facilidade de acesso a dúvidas sobre as I.As.</td>
 | RF-08 |  A aplicação deve conter links que direcionem o usuário a I.A selecionada.| ALTA| 
 | RF-09 |  O site deve-se conter tela para cadastro de usuários.| ALTA| 
 | RF-10 |  O site deve permitir que o usuário faça login em sua conta.| ALTA| 
-| RF-11 |  A aplicação deve oferecer acessibilidade a pessoas com deficiência visual.| ALTA| 
+| RF-11 |  A aplicação deve oferecer acessibilidade a pessoas com deficiência visual.| NÃO IMPLEMENTADO, FORA DO ESCOPO ATUAL| 
 | RF-12 |  O site deve conter área para comunidade/fórum.| BAIXA| 
 | RF-13 |  A aplicação deve conter tela de perfil.| MÉDIA| 
-| RF-14 |  O site deve dispor de tema claro e escuro.| BAIXA| 
+| RF-14 |  O site deve dispor de tema claro e escuro.| NÃO IMPLEMENTADO, FORA DO ESCOPO ATUAL| 
 
 
 **Prioridade: Alta / Média / Baixa. 
