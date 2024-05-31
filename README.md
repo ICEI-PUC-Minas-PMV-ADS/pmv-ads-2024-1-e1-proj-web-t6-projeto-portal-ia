@@ -15,7 +15,7 @@ Criação de um site/plataforma onde as pessoas possam aprender sobre os diferen
 * Jéssica Cristina Araújo Lima de Melo
 * Cássia de Arruda Nicolau Santos
 * Hiago
-* Thiago
+* Tiago Marques Leite
 
 ## Orientador
 

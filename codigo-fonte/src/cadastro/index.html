@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - A.I Explorer</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="/codigo-fonte/src/contato/contato.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css" />
 </head>
 
 <body class="contato-background">
@@ -73,45 +74,54 @@
             </div>
         </div>
     </nav>
-    <div class="main">
-        <table class="allWidth whiteColor smallMTop">
-            <tr>
-                <p class="mediumMLeft smallMTop titleSize2 whiteColor" style="margin-left: 23% !important;">Fórum</p>
-            </tr>
-            <tr>
-                <ul class="list-group mediumMLeft smallMTop mediumMRight">
-                    <ol>
-                    </ol>
-                </ul>
-            </tr>
-        </table>
-    </div>
-    <script src="forum.js"></script>
-    <script>
-        console.log(threads);
-        var container = document.querySelector('ol');
-        for (let thread of threads) {
-            var html = `
-            <li class="list-group-item" style="background-color: #efe0ff;">
-                <a href="thread.html?id=${thread.id}">
-                    <p style="font-size: 20px;">
-                        ${thread.title}
-                    </p>
-                    <div style="font-size: 12px;">
-                        <p class="timestamp">
-                            ${new Date(thread.date).toLocaleString()}
-                        </p>
-                        <p class="comment-count">
-                            ${thread.comments.length} comments
-                        </p>
-                    </div>
-                </a>
-            </li>
-            `;
-            container.insertAdjacentHTML('beforeend', html);
-        }
-    </script>
+    <div class="container">
+        <img src="img/woman-register-page.png" alt="Mulher se registrando" class="img01">
+        <div class="card">
+            <h1>Crie sua conta</h1>
+            <div id="msgError"></div>
+            <div id="msgSuccess"></div>
+            <div class="label-float">
+                <input type="text" id="namePerson" placeholder=" " required />
+                <label id="labelName" for="namePerson">Nome Completo</label>
+            </div>
 
+            <div class="label-float">
+                <input type="text" id="userName" placeholder=" " required />
+                <label id="labelUsername" for="userName">Usuário</label>
+            </div>
+
+            <div class="label-float">
+                <input type="email" id="email" placeholder=" " required />
+                <label id="labelEmail" for="email">E-mail</label>
+            </div>
+
+            <div class="label-float">
+                <input type="tel" id="cellphoneNumber" placeholder=" " required />
+                <label id="labelCellphone" for="cellphoneNumber">Celular</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="passwordUser" placeholder=" " required />
+                <label id="labelPassword" for="passwordUser">Senha</label>
+            </div>
+
+            <div class="label-float">
+                <input type="password" id="passwordUserConfirm" placeholder=" " required />
+                <label id="labelPasswordConfirm" for="passwordUserConfirm">Confirmar senha</label>
+            </div>
+
+            <div class="justify-center">
+                <button onclick="register()" class="btn btn-outline-success my-2 my-sm-0 buttonStyle">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p class="m-0">© Turma 6 - Puc Minas 2024. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>

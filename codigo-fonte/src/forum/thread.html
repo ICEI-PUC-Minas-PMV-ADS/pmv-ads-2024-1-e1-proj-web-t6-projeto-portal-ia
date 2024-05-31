@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thread</title>
+    <link href="thread.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="top-bar">
+        <h1>
+            Fórum Portal I.A
+        </h1>
+    </div>
+    <div class="main">
+        <ol></ol>
+        <form id="comment-form">
+            <input type="text" id="comment-author" placeholder="Your name" required>
+            <textarea id="comment-content" placeholder="Your comment" required></textarea>
+            <button type="submit">Add Comment</button>
+        </form>
+    </div>
+    <script src="forum.js"></script>
+    <script>
+        function getThreadIdFromUrl() {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            return parseInt(urlParams.get('id'), 10);
+        }
+
+        const threadId = getThreadIdFromUrl();
+        const thread = threads.find(t => t.id === threadId);
+
+        if (thread) {
+            displayComments(thread);
+        } else {
+            console.error("Thread not found");
+        }
+    </script>
+
+<footer>
+    <p class="m-0">© Turma 6 - Puc Minas 2024. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
