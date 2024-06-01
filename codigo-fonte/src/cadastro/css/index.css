@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* global */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    ;
+    letter-spacing: -0.02em;
+}
+
 .contato-background {
-    width: 100% !important;
+    width: 100vw;
+    height: 100vh;
     background-image: linear-gradient(to bottom, #510682, #6b1386, #82218a, #972f8e, #ab3f92) !important;
     margin: 0 !important;
     font-weight: 500 !important;
@@ -125,17 +135,20 @@
 }
 
 .container {
+    box-shadow: 70px -70px 70px rgba(194, 194, 194, 0.1) inset, -70px 70px 70px rgba(255, 255, 255, 0.1) inset;
+    backdrop-filter: blur(140px);
+    border-radius: 15px;
+}
+
+.alinhamento {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 10px;
-    margin-right: 142px;
-    margin-left: 142px;
-    border-radius: 25px;
+    padding: 0.5rem 0;
 }
 
 .img01 {
-    transform: scale(0.8);
+    transform: scale(0.7);
 }
 
 .card {
@@ -144,11 +157,44 @@
     border: none;
 }
 
+.perguntaSecreta {
+    font-size: 1.3rem;
+}
+
+#perguntaSecreta {
+    width: 201.6px;
+    height: 29.2px;
+    margin-bottom: 0.4rem;
+    color: #928d8d;
+}
+
+h1,
+label.perguntaSecreta {
+    font-weight: 700;
+}
+
+.btn-gradient {
+    width: 12.6rem;
+    background-image: linear-gradient(-45deg, #31d5ee, #820ad1);
+    background-size: 200% auto;
+    color: #fafafa;
+    border: 0;
+    border-radius: 0.31rem;
+    font-weight: bold;
+    padding: 0.5rem 1.87rem;
+    transition: .8s;
+    text-decoration: none;
+}
+
+.btn-gradient:hover {
+    background-position: right center;
+    color: #fafafa;
+}
+
 footer {
     flex-direction: column;
-    width: 100%;
     display: flex;
     align-items: center;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 3rem 0 0;
 }

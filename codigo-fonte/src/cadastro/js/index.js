@@ -23,6 +23,10 @@ let passwordUserConfirm = document.querySelector('#passwordUserConfirm')
 let labelPasswordConfirm = document.querySelector('#labelPasswordConfirm')
 let validPasswordConfirm = false
 
+let respostaSecreta = document.getElementById('respostaSecreta')
+let labelRespostaSecreta = document.getElementById('labelRespostaSecreta')
+let validRespostaSecreta = false
+
 /* validing signup variables using functions */
 
 namePerson.addEventListener('keyup', () => {
@@ -97,10 +101,31 @@ passwordUserConfirm.addEventListener('keyup', () => {
     }
 })
 
-/* Function "Cadastro"*/
+respostaSecreta.addEventListener('keyup', () => {
+    if (respostaSecreta.value.length < 3) {
+        labelRespostaSecreta.setAttribute('style', 'color: red')
+        labelRespostaSecreta.innerHTML = 'Insira no mínimo 3 caracteres'
+    } else {
+        labelRespostaSecreta.setAttribute('style', 'color: green')
+        labelRespostaSecreta.innerHTML = 'Resposta'
+        validRespostaSecreta = true
+    }
+})
 
+/* Função pergunta secreta */
+function habilitarCampoResposta() {
+    const perguntaSecreta = document.getElementById('perguntaSecreta')
+    if (!perguntaSecreta.value) {
+        respostaSecreta.setAttribute('disabled', '');
+        respostaSecreta.value = '';
+    } else {
+        respostaSecreta.removeAttribute('disabled');
+    }
+}
+
+/* Function "Cadastro"*/
 function register() {
-    if (validName && validUsername && validEmail && validCellphone && validPassword && validPasswordConfirm) {
+    if (validName && validUsername && validEmail && validCellphone && validPassword && validPasswordConfirm && validRespostaSecreta) {
         let listUser = JSON.parse(localStorage.getItem('listUser') || '[]')
 
         listUser.push(
@@ -111,11 +136,11 @@ function register() {
                 cellphoneNumberCad: cellphoneNumber.value,
                 passwordUserCad: passwordUser.value,
                 passwordUserConfirmCad: passwordUserConfirm.value,
+                respostaSecreta: respostaSecreta.value,
             }
         )
 
         localStorage.setItem('listUser', JSON.stringify(listUser))
-
 
         msgSuccess.setAttribute('style', 'display: block')
         msgSuccess.innerHTML = '<strong>Cadastrando usuário...</strong>'
@@ -126,11 +151,11 @@ function register() {
             window.location.href = 'https://www.youtube.com/watch?v=09UliRgwXw8'
         }, 3000)
 
-
     } else {
-        msgError.setAttribute('style', 'display: block')
+        msgError.setAttribute('style', 'color: red; display: block')
         msgError.innerHTML = '<strong>Preencha todos os campos corretamente antes de cadastrar</strong>'
         msgSuccess.innerHTML = ''
         msgSuccess.setAttribute('style', 'display: none')
     }
+
 }
