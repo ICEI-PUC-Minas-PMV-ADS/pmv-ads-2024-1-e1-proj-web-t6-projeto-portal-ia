@@ -100,18 +100,17 @@ ________________________________________________________________________________
 
 #### Requisito atendido
 
-RF-13: A aplicação deve conter tela de perfil.
+- RF-13: A aplicação deve conter tela de perfil.
+- RF-05: O software deve ser capaz de aceitar a entrega de dados no formato texto.
 
 O site deve permitir ao usuário verificar as informações registradas no cadastro na pagina de perfil, após fazer o login, bem como alterar/atualizar suas informações. 
 
 
 #### Artefatos da funcionalidade
 
-peril.css
-
-perfil.html
-
-perfil.js
+- peril.css
+- perfil.html
+- perfil.js
 
 
 #### Estrutura de Dados
