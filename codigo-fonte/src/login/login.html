@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
         defer></script>
-    <script type="module" src="./login.js" defer></script>
+    <script defer src="./login.js"></script>
 
     <title>AI.Explorer | Login</title>
 </head>
@@ -48,12 +48,8 @@
                             </svg>
                         </i>
                     </div>
-                    <a class="esqueci-senha" href="#">Esqueci a senha</a>
-
-                    <!-- modal -->
-                    <div class="modal-dialog modal-dialog-centered">
-                        ...
-                    </div>
+                    <a data-bs-toggle="modal" data-bs-target="#modalEsqueciSenha" class="esqueci-senha" href="#">Esqueci
+                        a senha</a>
 
                     <div class="confirmar">
                         <button class="btn-gradient">Confirmar</button>
@@ -71,12 +67,45 @@
                     <p>Não tem uma conta ainda?</p>
                 </div>
                 <div class="cadastro mt-3">
-                    <a href="#">Cadastre-se</a>
+                    <a href="../cadastro/index.html">Cadastre-se</a>
                 </div>
             </section>
         </div>
         <div>
             <img class="boneca" src="../assets/imagens/login.png" alt="login">
+        </div>
+
+        <!-- modal - palavra secreta -->
+        <div class="modal fade" id="modalEsqueciSenha" tabindex="-1" aria-hidden="true">
+
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content fundo-vidro">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="tituloModal">Recuperar senha</h1>
+                        <button class="btn fechar" data-bs-dismiss="modal">
+                            <i class="ri-close-line" data-bs-dismiss="modal"></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="campo">
+                            <p>Preencha seu e-mail ou telefone</p>
+                            <label id="validarCampoEmail" for=""></label>
+                            <input id="campoEmail" onchange="filtrar()" type="text" placeholder="  E-mail ou telefone">
+                        </div>
+                        <div class="campo">
+                            <p>Preencha sua palavra secreta</p>
+                            <label id="validarCampoPalavraSecreta" for=""></label>
+                            <input id="campoPalavraSecreta" onchange="filtrar()" type="text"
+                                placeholder="  Palavra secreta">
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-gradient">RECUPERAR</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 

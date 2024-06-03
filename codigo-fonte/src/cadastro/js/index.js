@@ -31,10 +31,10 @@ let validRespostaSecreta = false
 
 namePerson.addEventListener('keyup', () => {
     if (namePerson.value.length <= 5) {
-        labelName.setAttribute('style', 'color: red')
+        labelName.setAttribute('style', 'color: #F84A4A')
         labelName.innerHTML = 'Insira no mínimo 6 caracteres'
     } else {
-        labelName.setAttribute('style', 'color: green')
+        labelName.setAttribute('style', 'color: #31EE66')
         labelName.innerHTML = 'Nome Completo'
         validName = true
     }
@@ -44,10 +44,10 @@ namePerson.addEventListener('keyup', () => {
 
 userName.addEventListener('keyup', () => {
     if (userName.value.length <= 5) {
-        labelUsername.setAttribute('style', 'color: red')
+        labelUsername.setAttribute('style', 'color: #F84A4A')
         labelUsername.innerHTML = 'Insira no mínimo 6 caracteres'
     } else {
-        labelUsername.setAttribute('style', 'color: green')
+        labelUsername.setAttribute('style', 'color: #31EE66')
         labelUsername.innerHTML = 'Usuário'
         validUsername = true
     }
@@ -56,10 +56,10 @@ userName.addEventListener('keyup', () => {
 email.addEventListener('keyup', () => {
     const emailValue = email.value;
     if (!emailValue.includes('@')) {
-        labelEmail.setAttribute('style', 'color: red')
+        labelEmail.setAttribute('style', 'color: #F84A4A')
         labelEmail.innerHTML = 'E-mail inválido'
     } else {
-        labelEmail.setAttribute('style', 'color: green')
+        labelEmail.setAttribute('style', 'color: #31EE66')
         labelEmail.innerHTML = 'E-mail válido'
         validEmail = true
     }
@@ -68,10 +68,10 @@ email.addEventListener('keyup', () => {
 /* Change parameter for numbers only (not a string) */
 cellphoneNumber.addEventListener('keyup', () => {
     if (cellphoneNumber.value.length <= 8) {
-        labelCellphone.setAttribute('style', 'color: red')
+        labelCellphone.setAttribute('style', 'color: #F84A4A')
         labelCellphone.innerHTML = 'Número não aceito'
     } else {
-        labelCellphone.setAttribute('style', 'color: green')
+        labelCellphone.setAttribute('style', 'color: #31EE66')
         labelCellphone.innerHTML = 'Celular'
         validCellphone = true
     }
@@ -81,10 +81,10 @@ cellphoneNumber.addEventListener('keyup', () => {
 passwordUser.addEventListener('keyup', () => {
     const specialCharacterPassword = /[!@#$%¨&*()_+-=?/<>:{}]/.test(passwordUser.value)
     if (!specialCharacterPassword) {
-        labelPassword.setAttribute('style', 'color: red')
+        labelPassword.setAttribute('style', 'color: #F84A4A')
         labelPassword.innerHTML = 'Você precisa de pelo menos um caracter especial (!,@,#)'
     } else {
-        labelPassword.setAttribute('style', 'color: green')
+        labelPassword.setAttribute('style', 'color: #31EE66')
         labelPassword.innerHTML = 'Senha'
         validPassword = true
     }
@@ -92,10 +92,10 @@ passwordUser.addEventListener('keyup', () => {
 
 passwordUserConfirm.addEventListener('keyup', () => {
     if (passwordUserConfirm.value !== passwordUser.value) {
-        labelPasswordConfirm.setAttribute('style', 'color: red')
+        labelPasswordConfirm.setAttribute('style', 'color: #F84A4A')
         labelPasswordConfirm.innerHTML = 'As senhas não batem'
     } else {
-        labelPasswordConfirm.setAttribute('style', 'color: green')
+        labelPasswordConfirm.setAttribute('style', 'color: #31EE66')
         labelPasswordConfirm.innerHTML = 'Confirmação da senha'
         validPasswordConfirm = true
     }
@@ -103,10 +103,10 @@ passwordUserConfirm.addEventListener('keyup', () => {
 
 respostaSecreta.addEventListener('keyup', () => {
     if (respostaSecreta.value.length < 3) {
-        labelRespostaSecreta.setAttribute('style', 'color: red')
+        labelRespostaSecreta.setAttribute('style', 'color: #F84A4A')
         labelRespostaSecreta.innerHTML = 'Insira no mínimo 3 caracteres'
     } else {
-        labelRespostaSecreta.setAttribute('style', 'color: green')
+        labelRespostaSecreta.setAttribute('style', 'color: #31EE66')
         labelRespostaSecreta.innerHTML = 'Resposta'
         validRespostaSecreta = true
     }
@@ -148,11 +148,11 @@ function register() {
         msgError.innerHTML = ''
 
         setTimeout(() => {
-            window.location.href = 'https://www.youtube.com/watch?v=09UliRgwXw8'
+            window.location.href = '../login/login.html'
         }, 3000)
 
     } else {
-        msgError.setAttribute('style', 'color: red; display: block')
+        msgError.setAttribute('style', 'color: #F84A4A; display: block')
         msgError.innerHTML = '<strong>Preencha todos os campos corretamente antes de cadastrar</strong>'
         msgSuccess.innerHTML = ''
         msgSuccess.setAttribute('style', 'display: none')
