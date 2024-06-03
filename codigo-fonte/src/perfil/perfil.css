@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: montserrat;
+    font-family: Montserrat, sans-serif;
 }
 
 body {
@@ -16,7 +16,6 @@ body {
 
 .wrapper {
     width: 100%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,20 +50,51 @@ video {
 .perfil {
     padding-bottom: 1.5rem;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
 .perfil img {
     width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#change-photo-btn {
+    margin-top: 0.5rem;
+    display: block;
+    align-self: center;
+}
+
+.perfil input#nome {
+    width: 31rem;
+    height: 2.5rem;
+    border-radius: 7px;
+    padding: 0.5rem;
+    color: #681990;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.biografia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .perfil h2 {
     font-size: 2rem;
     color: #fafafa;
     padding-bottom: 0.5rem;
-    font-weight: 600
+    font-weight: 600;
 }
 
 .perfil p {
@@ -89,7 +119,7 @@ video {
     color: #BAB7C9;
 }
 
-/* São os campos para preenchimento (e-mail, telefone, profissão localização.) */
+/* Campos de preenchimento (email, telefone, profissão, localização) */
 .formulario .container1,
 .container2 {
     display: flex;
@@ -116,7 +146,6 @@ video {
 
 .formulario .input-menor {
     width: 17rem;
-
 }
 
 .formulario input {
@@ -170,7 +199,6 @@ video {
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: #f8f9fa;
     --bs-gradient: none;
-
     transition: color .40s ease-in-out, background-color .40s ease-in-out, border-color .40s ease-in-out;
     --bs-navbar-toggler-transition: box-shadow 0.40s ease-in-out;
 }
