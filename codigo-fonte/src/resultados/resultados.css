@@ -1,8 +1,4 @@
-@font-face {
-    font-family: varino;
-    src: url(../assets/Varino\ -\ Normal.otf);
-}
-
+/* General styles */
 body {
     background-color: #151515;
     min-height: 100vh;
@@ -10,25 +6,82 @@ body {
     color: #fafafa;
     background-image: linear-gradient(to left, #5c0396, #460e70, #31114c, #1e0e2a, #040106);
     background-repeat: no-repeat;
-}
+  }
 
-.titulo h1 {
+/* Header Styles */
+header {
+    background-image: linear-gradient(to right, #5c0396, #460e70, #31114c, #1e0e2a, #040106); /* Gradient from dark purple to pink */
+    color: #fff; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: flex-start; 
+    align-items: center; 
+  }
+  
+  /* Logo e nome do site */
+  .d-flex {
+    gap: 20px;
+  }
+  
+  .d-flex align-items-center {
+    flex: 1; 
+  }
+  
+  h2 {
+    margin-bottom: 0; 
+    text-align: center; 
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-menu {
+    background-color: #31114c; 
+    border: 1px solid #270e3a; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    color: #fff; 
+  }
+  
+  .dropdown-item {
+    color: #fff; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .dropdown-item:hover {
+    background-color: #460e70; 
+  }
+  
+  
+  .dropdown-toggle {
+    background-color: #31114c;
+    border: 1px solid #270e3a; 
+    color: #fff;
+  }
+  
+  .dropdown-toggle:hover {
+    background-color: #460e70;
+  }
+    
+
+  
+  
+  .titulo h1 {
     font-size: 2rem;
     text-align: center;
     color: #fafafa;
     font-family: varino;
     padding: 2rem;
-
-}
-.pesquisa {
-
+  }
+  
+  .pesquisa {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.campo-pesquisa {
+  }
+  
+  .campo-pesquisa {
     width: 50%;
-    box-shadow: 21.200000762939453px -21.200000762939453px 21.2px rgba(190, 190, 190, 0.1) inset, -21.200000762939453px 21.200000762939453px 21.2px rgba(255, 255, 255, 0.1) inset;
+    box-shadow: 21.200000762939453px -21.200000762939453px 21.2px rgba(190, 190, 190, 0.1) inset,
+      -21.200000762939453px 21.200000762939453px 21.2px rgba(255, 255, 255, 0.1) inset;
     backdrop-filter: blur(42.4px);
     border-radius: 15px;
     background-color: rgba(250, 250, 250, 0.1);
@@ -38,26 +91,27 @@ body {
     gap: 0.5rem;
     padding: 0.5rem;
     margin-bottom: 5rem;
-}
-
-.campo-pesquisa>i {
+  }
+  
+  .campo-pesquisa > i {
     font-size: 1rem;
     color: #fafafa;
-}
-
-.campo-pesquisa>input {
+  }
+  
+  .campo-pesquisa > input {
     flex: 1;
     font-size: 1rem;
     background-color: transparent;
     outline: none;
     border: none;
     color: #fafafa;
-}
-
-.pesquisa ::placeholder {
+  }
+  
+  .pesquisa ::placeholder {
     color: #fafafa;
-}
-.btn-gradient {
+  }
+  
+  .btn-gradient {
     width: 120px;
     background-image: linear-gradient(-45deg, #31d5ee, #820ad1);
     background-size: 120% auto;
@@ -66,28 +120,49 @@ body {
     border-radius: 0.31rem;
     font-weight: bold;
     padding: 0.5rem 1.85rem;
-    transition: .8s;
+    transition: 0.8s;
     text-decoration: none;
-}
-
-.btn-gradient:hover {
+  }
+  
+  .btn-gradient:hover {
     background-position: right center;
-}
-.filtro nav {
+  }
+  
+  .filtro nav {
     width: 100%;
     gap: 1.25rem;
-}
-.filtro a {
+  }
+  
+  .filtro a {
     font-weight: 500;
     text-align: center;
-}
-
-.card {
+  }
+  
+  /* Card styles */
+  .card {
     background-image: linear-gradient(-45deg, #31d5ee, #820ad1);
     color: #fafafa;
-    
-    
-}
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    margin-bottom: 2rem;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+  }
 
+  .footer {
+    text-align: center;
 
-
+  }
+  
+  
