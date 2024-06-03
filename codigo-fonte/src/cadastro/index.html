@@ -10,7 +10,7 @@
 </head>
 
 <body class="contato-background">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light mb-5">
         <a class="navbar-expand" href="./index.html">
             <img src="/codigo-fonte/src/assets/logo.svg" alt="Logo" height="20" class="d-inline-block align-text-top">
         </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -71,54 +71,73 @@
                 <a href="/codigo-fonte/src/login/login.html">
                     <button class="btn btn-outline-success my-2 my-sm-0 buttonStyle">Login</button>
                 </a>
+
             </div>
         </div>
     </nav>
     <div class="container">
-        <img src="img/woman-register-page.png" alt="Mulher se registrando" class="img01">
-        <div class="card">
-            <h1>Crie sua conta</h1>
-            <div id="msgError"></div>
-            <div id="msgSuccess"></div>
-            <div class="label-float">
-                <input type="text" id="namePerson" placeholder=" " required />
-                <label id="labelName" for="namePerson">Nome Completo</label>
-            </div>
+        <div class="alinhamento">
+            <img src="img/woman-register-page.png" alt="Mulher se registrando" class="img01">
+            <div class="card">
+                <h1>Crie sua conta</h1>
+                <div id="msgError"></div>
+                <div id="msgSuccess"></div>
+                <div class="label-float">
+                    <input type="text" id="namePerson" placeholder=" " required />
+                    <label id="labelName" for="namePerson">Nome Completo</label>
+                </div>
 
-            <div class="label-float">
-                <input type="text" id="userName" placeholder=" " required />
-                <label id="labelUsername" for="userName">Usuário</label>
-            </div>
+                <div class="label-float">
+                    <input type="text" id="userName" placeholder=" " required />
+                    <label id="labelUsername" for="userName">Usuário</label>
+                </div>
 
-            <div class="label-float">
-                <input type="email" id="email" placeholder=" " required />
-                <label id="labelEmail" for="email">E-mail</label>
-            </div>
+                <div class="label-float">
+                    <input type="email" id="email" placeholder=" " required />
+                    <label id="labelEmail" for="email">E-mail</label>
+                </div>
 
-            <div class="label-float">
-                <input type="tel" id="cellphoneNumber" placeholder=" " required />
-                <label id="labelCellphone" for="cellphoneNumber">Celular</label>
-            </div>
+                <div class="label-float">
+                    <input type="tel" id="cellphoneNumber" placeholder=" " required />
+                    <label id="labelCellphone" for="cellphoneNumber">Celular</label>
+                </div>
 
-            <div class="label-float">
-                <input type="password" id="passwordUser" placeholder=" " required />
-                <label id="labelPassword" for="passwordUser">Senha</label>
-            </div>
+                <div class="label-float">
+                    <input type="password" id="passwordUser" placeholder=" " required />
+                    <label id="labelPassword" for="passwordUser">Senha</label>
+                </div>
 
-            <div class="label-float">
-                <input type="password" id="passwordUserConfirm" placeholder=" " required />
-                <label id="labelPasswordConfirm" for="passwordUserConfirm">Confirmar senha</label>
-            </div>
+                <div class="label-float">
+                    <input type="password" id="passwordUserConfirm" placeholder=" " required />
+                    <label id="labelPasswordConfirm" for="passwordUserConfirm">Confirmar senha</label>
+                </div>
 
-            <div class="justify-center">
-                <button onclick="register()" class="btn btn-outline-success my-2 my-sm-0 buttonStyle">Cadastrar</button>
+                <label class="perguntaSecreta" for="perguntaSecreta">Pergunta secreta</label>
+                <div class="label-float">
+
+                    <select onchange="habilitarCampoResposta()" name="perguntaSecreta" id="perguntaSecreta">
+                        <option value="">--Selecione--</option>
+                        <option value="pergunta1">Qual o nome do seu primeiro animal?</option>
+                        <option value="pergunta2">Qual a sua comida favorita?</option>
+                        <option value="pergunta3">Onde você cursou o ensino médio?</option>
+                    </select>
+                </div>
+                <div class="label-float">
+                    <input type="text" id="respostaSecreta" required disabled />
+                    <label id="labelRespostaSecreta" for="respostaSecreta">Resposta</label>
+                </div>
+
+
+                <div class="justify-center">
+                    <button onclick="register()" class="btn btn-gradient">Cadastrar</button>
+                </div>
             </div>
         </div>
     </div>
 
 
     <footer>
-        <p class="m-0">© Turma 6 - Puc Minas 2024. Todos os direitos reservados.</p>
+        <p class="m-0">© Turma 6 - PUC Minas 2024. Todos os direitos reservados.</p>
     </footer>
 
     <script src="js/index.js"></script>
