@@ -30,39 +30,9 @@ header {
   h2 {
     margin-bottom: 0; 
     text-align: center; 
-  }
-  
-  /* Dropdown Menu */
-  .dropdown-menu {
-    background-color: #31114c; 
-    border: 1px solid #270e3a; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
-    color: #fff; 
-  }
-  
-  .dropdown-item {
-    color: #fff; 
-    padding: 10px 20px; 
-    transition: background-color 0.3s ease; 
-  }
-  
-  .dropdown-item:hover {
-    background-color: #460e70; 
-  }
-  
-  
-  .dropdown-toggle {
-    background-color: #31114c;
-    border: 1px solid #270e3a; 
-    color: #fff;
-  }
-  
-  .dropdown-toggle:hover {
-    background-color: #460e70;
-  }
-    
+    font-family: montserrat, sans-serif;
 
-  
+  }
   
   .titulo h1 {
     font-size: 2rem;
