@@ -80,9 +80,17 @@ label {
     border: none;
 }
 
-#perguntaSecreta {
-    height: 29.2px;
-    color: #928d8d;
+#perguntaSecreta,
+::placeholder,
+input {
+    height: 1.9rem;
+    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #979ba0;
+    border: none;
+    border-radius: 5px;
+    height: 1.9rem;
 }
 
 .btn-gradient {

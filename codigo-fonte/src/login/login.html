@@ -35,11 +35,11 @@
             <section class="secao-login">
                 <form class="formulario" onsubmit="mostrarAlerta(event)">
                     <div class="email">
-                        <input type="text" placeholder="E-mail ou telefone" id="Login">
+                        <input type="text" placeholder="E-mail ou telefone" id="Login" required>
                         <i class="email"></i>
                     </div>
                     <div class="senha mt-3">
-                        <input type="password" placeholder="Senha" id="senha">
+                        <input type="password" placeholder="Senha" id="senha" required>
                         <i class="icon-senha">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                 <path
@@ -48,7 +48,8 @@
                             </svg>
                         </i>
                     </div>
-                    <a data-bs-toggle="modal" data-bs-target="#modalEsqueciSenha" class="esqueci-senha" href="#">Esqueci
+                    <a onclick="limparCampos()" data-bs-toggle="modal" data-bs-target="#modalEsqueciSenha"
+                        class="esqueci-senha" href="#">Esqueci
                         a senha</a>
 
                     <div class="confirmar">
@@ -75,7 +76,7 @@
             <img class="boneca" src="../assets/imagens/login.png" alt="login">
         </div>
 
-        <!-- modal - palavra secreta -->
+        <!-- modal - preencher email/telefone e palavra secreta -->
         <div class="modal fade" id="modalEsqueciSenha" tabindex="-1" aria-hidden="true">
 
             <div class="modal-dialog modal-dialog-centered">
@@ -88,21 +89,77 @@
                     </div>
 
                     <div class="modal-body">
-                        <div class="campo">
-                            <p>Preencha seu e-mail ou telefone</p>
-                            <label id="validarCampoEmail" for=""></label>
-                            <input id="campoEmail" onchange="filtrar()" type="text" placeholder="  E-mail ou telefone">
+                        <div class="row">
+                            <div class="campo col-12">
+                                <label for="campoLogin">Preencha seu e-mail ou telefone</label>
+                                <input onkeyup="" id="campoLogin" type="text" placeholder="E-mail ou telefone" required>
+                            </div>
+
+                            <div class="campo col-12">
+                                <label for="campoPalavraSecreta">Preencha sua palavra
+                                    secreta</label>
+                                <input id="campoPalavraSecreta" type="text" placeholder="Palavra secreta" required>
+                            </div>
                         </div>
-                        <div class="campo">
-                            <p>Preencha sua palavra secreta</p>
-                            <label id="validarCampoPalavraSecreta" for=""></label>
-                            <input id="campoPalavraSecreta" onchange="filtrar()" type="text"
-                                placeholder="  Palavra secreta">
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button onclick="validarPerguntaSecreta()" type="button"
+                            class="btn btn-gradient">RECUPERAR</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- modal - preencher as novas senhas -->
+        <div class="modal fade" id="modalRecuperarSenha" tabindex="-1" aria-hidden="true">
+            <div id="modalRecuperarSenha" class="modal-dialog modal-dialog-centered">
+                <div class="modal-content fundo-vidro esqueci-senha">
+
+                    <div class="modal-header nova-senha">
+                        <h1 class="modal-title ">Defina uma nova senha</h1>
+                        <button class=" btn fechar" data-bs-dismiss="modal">
+                            <i class="ri-close-line" data-bs-dismiss="modal"></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div class="row">
+                            <div class="campo col-12">
+                                <label class="" for="novaSenha">Nova Senha</label>
+                                <div class="mostrar">
+                                    <input class="senha input-ontline" id="novaSenha" class="senha"
+                                        onkeyup="validarNovaSenha()" type="password" placeholder="Ex:. @123fulano"
+                                        required>
+                                    <i id="iconeNovaSenha" onclick="toggleIconeMostrarSenha('novaSenha')"
+                                        class="ri-eye-off-fill"></i>
+                                </div>
+                                <span id="msgErro" class="mensagem-de-erro">A senha precisa de pelo menos um caractere
+                                    especial.</span>
+                            </div>
+
+                            <div class="campo col-12">
+                                <label for="confirmarNovaSenha">Confirmar nova senha</label>
+                                <div class="mostrar">
+                                    <input class="senha input-ontline" id="confirmarNovaSenha"
+                                        onkeyup="confirmarSenha()" type="password" placeholder="Ex:. @123fulano"
+                                        required>
+                                    <i id="iconeConfirmarNovaSenha"
+                                        onclick="toggleIconeMostrarSenha('confirmarNovaSenha')"
+                                        class="ri-eye-off-fill"></i>
+                                </div>
+                                <span id="msgErroConfirmacao" class="mensagem-de-erro">As senhas não batem. Tente
+                                    novamente.</span>
+                            </div>
                         </div>
                     </div>
 
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-gradient">RECUPERAR</button>
+                        <button onclick="definirNovaSenha()" type="button" class="btn btn-gradient">DEFINIR NOVA
+                            SENHA</button>
                     </div>
                 </div>
             </div>
