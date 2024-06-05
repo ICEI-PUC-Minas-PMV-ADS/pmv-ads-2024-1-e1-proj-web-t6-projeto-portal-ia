@@ -46,7 +46,18 @@ Critério 2:
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164048685/bad64aae-53fe-46fb-b23c-352401696a4d)
 
+|Caso de Teste    | CT-04 - Tela de cadastro |
+|:---|:---|
+| Resultados obtidos | Critério 1: Todos os elementos gráficos estão na tela. <br/>Critério 2: Os campos de cadastro de usuário estão fazendo as validações corretamente. <br/>Critério 3: O cadastro de novos usuários está persistindo. |
+| Responsável pela execução do caso de Teste | Cássia de Arruda |
 
+Critério 1 e 2 :
+
+![Captura de tela 2024-06-04 231840](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/e342d952-079f-4f2d-bd18-3ea0328ddc25)
+
+Critério 3:
+
+![Captura de tela 2024-06-05 201040](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/0393ca61-1f32-4cfc-866e-f3c8e81b7c2d)
 
 
 
