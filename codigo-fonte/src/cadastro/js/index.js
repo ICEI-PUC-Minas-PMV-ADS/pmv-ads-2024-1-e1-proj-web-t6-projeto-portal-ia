@@ -78,7 +78,7 @@ cellphoneNumber.addEventListener('keyup', () => {
 })
 
 
-passwordUser.addEventListener('keyup', () => {
+function validarSenha() {
     const specialCharacterPassword = /[!@#$%¨&*()_+-=?/<>:{}]/.test(passwordUser.value)
     if (!specialCharacterPassword) {
         labelPassword.setAttribute('style', 'color: #F84A4A')
@@ -88,9 +88,9 @@ passwordUser.addEventListener('keyup', () => {
         labelPassword.innerHTML = 'Senha'
         validPassword = true
     }
-})
+}
 
-passwordUserConfirm.addEventListener('keyup', () => {
+function confirmarSenha() {
     if (passwordUserConfirm.value !== passwordUser.value) {
         labelPasswordConfirm.setAttribute('style', 'color: #F84A4A')
         labelPasswordConfirm.innerHTML = 'As senhas não batem'
@@ -99,7 +99,7 @@ passwordUserConfirm.addEventListener('keyup', () => {
         labelPasswordConfirm.innerHTML = 'Confirmação da senha'
         validPasswordConfirm = true
     }
-})
+}
 
 respostaSecreta.addEventListener('keyup', () => {
     if (respostaSecreta.value.length < 3) {

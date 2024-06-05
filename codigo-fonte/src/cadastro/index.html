@@ -47,12 +47,13 @@
 
                 <div class="label-float">
                     <label id="labelPassword" for="passwordUser"></label>
-                    <input type="password" id="passwordUser" placeholder=" Senha" required />
+                    <input onkeyup="validarSenha()" type="password" id="passwordUser" placeholder=" Senha" required />
                 </div>
 
                 <div class="label-float">
                     <label id="labelPasswordConfirm" for="passwordUserConfirm"></label>
-                    <input type="password" id="passwordUserConfirm" placeholder=" Confirmar Senha" required />
+                    <input onkeyup="confirmarSenha()" type="password" id="passwordUserConfirm"
+                        placeholder=" Confirmar Senha" required />
                 </div>
 
                 <label class="pergunta-secreta" for="perguntaSecreta">Pergunta secreta</label>
