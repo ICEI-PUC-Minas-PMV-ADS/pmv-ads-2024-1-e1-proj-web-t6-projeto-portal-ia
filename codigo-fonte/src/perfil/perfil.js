@@ -52,6 +52,41 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
+    // Função para validar o telefone
+    function validateTelefone() {
+        let telefone = fields.telefone.value.replace(/\D/g, ''); // Remove todos os caracteres não numéricos
+        if (telefone.length > 2) {
+            telefone = `(${telefone.substring(0, 2)}) ${telefone.substring(2)}`;
+        }
+        fields.telefone.value = telefone;
+
+        if (telefone.replace(/\D/g, '').length < 11) {
+            fields.telefone.style.color = 'red';
+        } else {
+            fields.telefone.style.color = '';
+        }
+    }
+
+    // Função para validar o email
+    function validateEmail() {
+        const email = fields.email.value;
+        if (!email.includes('@')) {
+            fields.email.style.color = 'red';
+        } else {
+            fields.email.style.color = '';
+        }
+    }
+
+    // Função para validar a biografia
+    function validateBiografia() {
+        const biografia = fields.biografia.value;
+        if (biografia.length < 20) {
+            fields.biografia.style.color = 'red';
+        } else {
+            fields.biografia.style.color = '';
+        }
+    }
+
     // Carregar dados e avatar ao iniciar a página
     loadAvatar();
     loadFormData();
@@ -101,8 +136,12 @@ document.addEventListener('DOMContentLoaded', function() {
         avatar.src = '../assets/ilustrações/Avatar.svg';
         localStorage.clear();
         nomeDisplay.textContent = 'Fulano de tal da Silva';
-        nomeInput.value = 'Fulano de tal da Silva';
         nomeDisplay.classList.remove('hidden');
         nomeInput.classList.add('hidden');
     });
+
+    // Eventos de entrada para validação dos campos
+    fields.telefone.addEventListener('input', validateTelefone);
+    fields.email.addEventListener('input', validateEmail);
+    fields.biografia.addEventListener('input', validateBiografia);
 });
