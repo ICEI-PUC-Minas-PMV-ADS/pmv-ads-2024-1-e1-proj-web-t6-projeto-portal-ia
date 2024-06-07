@@ -37,3 +37,27 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Passos | 1 - Validar que todos os elementos gráficos estejam na tela (Área para inserção de: Nome, usuário, e-mail, celular, senha, confirmar senha e pergunta secreta). <br />2 - Preencher campos "Nome Completo", "Usuário", "e-mail", "Celular", "senha", "confirmar senha" e "pergunta secreta". Checar se cada campo está de acordo com suas regras estabelecidas. Clicar no botão "Cadastrar".|
 | Critérios de êxito | 1 - Que todos os elementos gráficos estejam presentes na tela. <br />2 - Que cada campo esteja de acordo com suas regras estabelecidas. <br/>3 - Que as informações inseridas fiquem salvas no localStorage. |
 | Responsável | Tiago Marques. |
+
+|Caso de Teste    | CT-5.0 - TELA INICIAL - Verificar o header da página |
+|:---|:---|
+| Requisitos Associados | RF-02 |
+| Objetivo do Teste |  Verificar a funcionalidade e a navegação do header da página. |
+| Passos | 1 - Navegar pelo header e clicar em todos os botões e links disponíveis. <br />2 - Verificar se todos os botões e links redirecionam para as páginas corretas. <br />3 - Clicar na logo e verificar se redireciona para a tela inicial. <br />4 - Abrir todos os menus drop-down e verificar se todos os links dentro deles funcionam corretamente. |
+| Critérios de êxito | 1 - Todos os botões e links do header devem redirecionar para as páginas corretas. <br />2 - A logo deve redirecionar para a tela inicial ao ser clicada. <br />3 - Todos os links dentro dos menus drop-down devem funcionar corretamente e redirecionar para as páginas corretas. |
+| Responsável | Jéssica Melo. |
+
+|Caso de Teste    | CT-5.1 - TELA INICIAL - Verificar o funcionamento do filtro de pesquisa e dos links da página Inicial |
+|:---|:---|
+| Requisitos Associados | RF-03 e RF-05 |
+| Objetivo do Teste | Verificar se o filtro de pesquisa funciona corretamente e se todos os links na página inicial estão funcionando conforme esperado. |
+| Passos | 1 - Navegar pela página inicial e localizar o filtro de pesquisa.<br>2 - Inserir diferentes termos de pesquisa no campo e pressionar "Enter" ou clicar no ícone de busca.<br>3 - Verificar se você está sendo redirecionado corretamente para a página de resultados de busca.<br>4 - Confirmar se os resultados exibidos correspondem aos termos de pesquisa inseridos <br>5 - Navegar pela página inicial e clicar em todos os links disponíveis.<br>6 - Verificar se todos os links redirecionam para as páginas corretas e sem erros. |
+| Critérios de êxito | 1 - O filtro de pesquisa deve exibir resultados relevantes e corretos para os termos de pesquisa inseridos.<br>2 - A página de resultados de busca deve carregar corretamente após a busca.<br>3 - Todos os filtros adicionais devem funcionar corretamente e refinar os resultados conforme esperado.<br>4 - Todos os links na página inicial devem redirecionar para as páginas corretas sem erros. |
+| Responsável | Jéssica Melo. |
+
+|Caso de Teste    | CT-6 - [Nome da tela] |
+|:---|:---|
+| Requisitos Associados | RF-00 |
+| Objetivo do Teste | [Objetivo do teste ] |
+| Passos | 1 - |
+| Critérios de êxito | 1 -  |
+| Responsável | [Nome do Responsável] |
