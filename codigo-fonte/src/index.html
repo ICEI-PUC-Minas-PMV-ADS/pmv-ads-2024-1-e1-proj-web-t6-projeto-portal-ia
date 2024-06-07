@@ -18,7 +18,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script defer src="./index.js"></script>
-    <title>A.I Explorer</title>
+    <title>Bem-vindo à A.I Explorer</title>
 
 </head>
 
@@ -117,18 +117,22 @@
                     </ul>
 
                     <!-- navegação da página -->
-                    <ul class="navbar-nav d-flex gap-3">
 
+                    <div class="navbar-nav d-flex gap-3 me-3">
+                        <!-- Introdução -->
+                        <a class="nav-link" href="#introducao">Introdução</a>
                         <!-- contato -->
-                        <li>
+                        <a class="nav-link" href="#entretenimento">Assista</a>
+                        <!-- Galeria -->
+                        <a class="nav-link me-5" href="#galeria">Galeria</a>
+                    </div>
+
+                    <ul class="navbar-nav d-flex gap-3">
+                        <!-- contato -->
+                        <div>
                             <a class="btn outline btn-outline-light-purple" href="./contato/contato.html"
                                 target="_blank">Contato</a>
-                        </li>
-                        <!-- descubra -->
-                        <li>
-                            <a class="btn outline btn-outline-light-purple" href="./resultados/resultados.html"
-                                target="_blank">Descubra</a>
-                        </li>
+                        </div>
                         <!-- fórum -->
                         <li>
                             <a class="btn outline btn-outline-light-purple" href="./login/login.html"
@@ -147,9 +151,8 @@
 
     <!-- seção pesquisa -->
     <main class="secao-pesquisa d-flex justify-content-center align-items-center">
-        <video src="./assets/videos/bg.mp4" autoplay loop muted>Seu
-            navegador não
-            suporta a TAG vídeo</video>
+        <img src="./assets/imagens/vecteezy_abstract-digital-technology-background-illustration_24295481.jpg"
+            alt="Imagem não carregada">
 
         <div class="wrapper1">
             <div class="pesquisa">
@@ -165,7 +168,7 @@
 
     <!-- seção introdução -->
     <section id="introducao" class="secao-introducao">
-        <div class="linha wrapper">
+        <div class=" wrapper">
             <div class="container-titulo">
                 <h2>
                     <span>Descubra</span> como funciona uma I.<span>A</span>
@@ -174,21 +177,19 @@
                     Veja no vídeo a seguir um pouco sobre Inteligência Artificial </h4>
             </div>
             <div class="container-video">
-                <iframe width="515" height="315" src="https://www.youtube.com/embed/XNfsfmjFh6E?si=B86tuXb9I1lt1tLT"
+                <iframe width="715" height="515" src="https://www.youtube.com/embed/XNfsfmjFh6E?si=B86tuXb9I1lt1tLT"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                 </iframe>
-                <img class="bonecas" src="./assets/ilustracoes/bonecas.svg" alt="">
             </div>
         </div>
-        <hr>
+
     </section>
 
     <!-- seção entretenimento -->
     <section id="entretenimento" class="secao-entretenimento">
-        <div class="wrapper">
-
+        <div class=" wrapper">
             <div class="container-titulo">
                 <h2>
                     <span>Recomendações</span> de filmes e séries
@@ -197,7 +198,7 @@
                     Descubra o próximo filme perfeito para assistir que envolve Inteligência Artificial </h4>
             </div>
             <div class="marquee d-flex align-items-center justify-content-center">
-                <ul class="marquee-container">
+                <div class="marquee-container">
                     <!-- ex-machina -->
                     <div class="cartaz">
                         <li><img src="assets/banner/1.jpg" alt="Filme Ex_Machina">
@@ -311,12 +312,455 @@
                                 trailer</a>
                         </li>
                     </div>
+                    <!--O Homem Bicentenário -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/6.jpg" alt="filme O Homem Bicentenário">
+                            <h6>O Homem Bicentenário</h6>
+                            <p>Drama, Romance e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>6.9/10</p>
+                                </div>
+                                <p>Filme . 1999 | 2H12min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0182789/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- Eu, Robô -->
+                    <div class="cartaz">
+                        <li><img src="./assets/banner/7.jpg" alt="Eu, Robô">
+                            <h6>Eu, Robô</h6>
+                            <p>Mistério, Ação e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.1/10</p>
+                                </div>
+                                <p>Filme . 2004 | 1h55min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0343818/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- Série Black Mirror -->
+                    <div class="cartaz">
+                        <li><img src="./assets/banner/9.jpg" alt="Série Black Mirror">
+                            <h6>Série Black Mirror</h6>
+                            <p>Drama, Mistério e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.7/10</p>
+                                </div>
+                                <p>Série . 2011</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt2085059/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- Better Than Us -->
+                    <div class="cartaz">
+                        <li><img src="./assets/banner/10.jpg" alt="Better Than Us">
+                            <h6>Better Than Us</h6>
+                            <p>Drama e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.3/10</p>
+                                </div>
+                                <p>Série . 2018-2019</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt8285216/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- ex-machina -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/1.jpg" alt="Filme Ex_Machina">
+                            <h6>Ex Machina: Instinto Artificial</h6>
+                            <p>Drama, Suspense e Ficção Científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.7/10</p>
+                                </div>
+                                <p>Filme.2014 | 1h48min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0470752/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_ex"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- matrix -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/3.jpg" alt="Filme Ex_Machina">
+                            <h6>Matrix</h6>
+                            <p>Ação e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.7/10</p>
+                                </div>
+                                <p>Filme . 1999 | 2h16min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt0133093/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_matrix"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- wall e -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/2.jpg" alt="Filme Ex_Machina">
+                            <h6>WALL·E</h6>
+                            <p>Animação, Aventura e Família</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.4/10</p>
+                                </div>
+                                <p>Filme . 2008 | 1H38min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt0910970/?ref_=nv_sr_srsg_4_tt_5_nm_3_q_wall%2520e"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- transcendence -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/4.jpg" alt="Filme Ex_Machina">
+                            <h6>Transcendence: A Revolução</h6>
+                            <p>Drama, Ação e ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>6.2/10</p>
+                                </div>
+                                <p>Filme . 2014 | 1h59min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt2209764/?ref_=nv_sr_srsg_0_tt_1_nm_0_q_Transcendence%253A%2520A%2520Revolu%25C3%25A7%25C3%25A3o"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+
+                    </div>
+                    <!-- ela -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/5.jpg" alt="Filme Ex_Machina">
+                            <h6>Ela</h6>
+                            <p>Drama, Romance e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.0/10</p>
+                                </div>
+                                <p>Filme . 2013 | 2h06min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt1798709/?ref_=nv_sr_srsg_6_tt_2_nm_6_q_Ela"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- minority report - a nova lei -->
+                    <div class="cartaz">
+                        <li><img src="./assets/banner/8.jpg" alt="Filme Ex_Machina">
+                            <h6>Minority Report - A Nova Lei</h6>
+                            <p>Ação, Policial e Mistério </p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.6/10</p>
+                                </div>
+                                <p>Filme . 2002 | 2h25min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0181689/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!--O Homem Bicentenário -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/6.jpg" alt="filme O Homem Bicentenário">
+                            <h6>O Homem Bicentenário</h6>
+                            <p>Drama, Romance e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>6.9/10</p>
+                                </div>
+                                <p>Filme . 1999 | 2H12min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0182789/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- Eu, Robô -->
+                    <div class="cartaz">
+                        <li><img src="./assets/banner/7.jpg" alt="Eu, Robô">
+                            <h6>Eu, Robô</h6>
+                            <p>Mistério, Ação e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.1/10</p>
+                                </div>
+                                <p>Filme . 2004 | 1h55min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0343818/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- Série Black Mirror -->
+                    <div class="cartaz">
+                        <li><img src="./assets/banner/9.jpg" alt="Série Black Mirror">
+                            <h6>Série Black Mirror</h6>
+                            <p>Drama, Mistério e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.7/10</p>
+                                </div>
+                                <p>Série . 2011</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt2085059/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- Better Than Us -->
+                    <div class="cartaz">
+                        <li><img src="./assets/banner/10.jpg" alt="Better Than Us">
+                            <h6>Better Than Us</h6>
+                            <p>Drama e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.3/10</p>
+                                </div>
+                                <p>Série . 2018-2019</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt8285216/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- ex-machina -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/1.jpg" alt="Filme Ex_Machina">
+                            <h6>Ex Machina: Instinto Artificial</h6>
+                            <p>Drama, Suspense e Ficção Científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.7/10</p>
+                                </div>
+                                <p>Filme.2014 | 1h48min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0470752/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_ex"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- matrix -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/3.jpg" alt="Filme Ex_Machina">
+                            <h6>Matrix</h6>
+                            <p>Ação e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.7/10</p>
+                                </div>
+                                <p>Filme . 1999 | 2h16min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt0133093/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_matrix"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- wall e -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/2.jpg" alt="Filme Ex_Machina">
+                            <h6>WALL·E</h6>
+                            <p>Animação, Aventura e Família</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.4/10</p>
+                                </div>
+                                <p>Filme . 2008 | 1H38min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt0910970/?ref_=nv_sr_srsg_4_tt_5_nm_3_q_wall%2520e"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- transcendence -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/4.jpg" alt="Filme Ex_Machina">
+                            <h6>Transcendence: A Revolução</h6>
+                            <p>Drama, Ação e ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>6.2/10</p>
+                                </div>
+                                <p>Filme . 2014 | 1h59min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt2209764/?ref_=nv_sr_srsg_0_tt_1_nm_0_q_Transcendence%253A%2520A%2520Revolu%25C3%25A7%25C3%25A3o"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+
+                    </div>
+                    <!-- ela -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/5.jpg" alt="Filme Ex_Machina">
+                            <h6>Ela</h6>
+                            <p>Drama, Romance e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.0/10</p>
+                                </div>
+                                <p>Filme . 2013 | 2h06min</p>
+                            </div>
+                            <a class="m-0"
+                                href="https://www.imdb.com/title/tt1798709/?ref_=nv_sr_srsg_6_tt_2_nm_6_q_Ela"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- minority report - a nova lei -->
+                    <div class="cartaz">
+                        <li><img src="./assets/banner/8.jpg" alt="Filme Ex_Machina">
+                            <h6>Minority Report - A Nova Lei</h6>
+                            <p>Ação, Policial e Mistério </p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.6/10</p>
+                                </div>
+                                <p>Filme . 2002 | 2h25min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0181689/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!--O Homem Bicentenário -->
+                    <div class="cartaz">
+                        <li><img src="assets/banner/6.jpg" alt="filme O Homem Bicentenário">
+                            <h6>O Homem Bicentenário</h6>
+                            <p>Drama, Romance e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>6.9/10</p>
+                                </div>
+                                <p>Filme . 1999 | 2H12min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0182789/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- Eu, Robô -->
+                    <div class="cartaz">
+                        <li><img src="./assets/banner/7.jpg" alt="Eu, Robô">
+                            <h6>Eu, Robô</h6>
+                            <p>Mistério, Ação e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.1/10</p>
+                                </div>
+                                <p>Filme . 2004 | 1h55min</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt0343818/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- Série Black Mirror -->
+                    <div class="cartaz">
+                        <li><img src="./assets/banner/9.jpg" alt="Série Black Mirror">
+                            <h6>Série Black Mirror</h6>
+                            <p>Drama, Mistério e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>8.7/10</p>
+                                </div>
+                                <p>Série . 2011</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt2085059/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                    <!-- Better Than Us -->
+                    <div class="cartaz">
+                        <li><img src="./assets/banner/10.jpg" alt="Better Than Us">
+                            <h6>Better Than Us</h6>
+                            <p>Drama e Ficção científica</p>
+                            <div class="banner">
+                                <div class="estrela">
+                                    <i class="ri-star-s-fill"></i>
+                                    <p>7.3/10</p>
+                                </div>
+                                <p>Série . 2018-2019</p>
+                            </div>
+                            <a class="m-0" href="https://www.imdb.com/title/tt8285216/?ref_=fn_al_tt_1"
+                                target="_blank">Confira
+                                o
+                                trailer</a>
+                        </li>
+                    </div>
+                </div>
             </div>
         </div>
 
 
 
-        <video src="./assets/videos/bg-3.mp4" loop autoplay muted></video>
+        <img src="./assets/imagens/vecteezy_night-sky-with-stars-sparkling-on-black-background_6262403.jpg" alt="">
     </section>
 
     <!-- seção galeria -->
