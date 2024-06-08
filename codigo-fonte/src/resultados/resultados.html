@@ -12,8 +12,7 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="./index.css" rel="stylesheet">
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="resultados.css">
@@ -145,17 +144,17 @@
     </div>
     <div class="filtro">
       <nav class="d-flex justify-content-center align-items-center">
-        <a class="btn-gradient centralizar" href="#">Estudos</a>
-        <a class="btn-gradient centralizar" href="#">Trabalho</a>
-        <a class="btn-gradient centralizar" href="#">Lazer</a>
-        <a class="btn-gradient centralizar" href="#">Marketing</a>
+        <a class="btn-gradient centralizar filtro-categoria" href="#" data-filter="Estudos">Estudos</a>
+        <a class="btn-gradient centralizar filtro-categoria" href="#" data-filter="Trabalho">Trabalho</a>
+        <a class="btn-gradient centralizar filtro-categoria" href="#" data-filter="Lazer">Lazer</a>
+        <a class="btn-gradient centralizar filtro-categoria" href="#" data-filter="Marketing">Marketing</a>
       </nav>
     </div>
 
     <!--card-->
     <div class="container mt-2">
-      <div class="row g-3 my-5">
-        <div class="col-4">
+      <div class="row g-3 my-5" id="cards-container">
+        <div class="col-4 card-item" data-category="Estudos">
           <div class="card">
             <img class="card-img-top" src="https://techsocial.com.ng/wp-content/uploads/2023/05/chatgpt.png"
               alt="Card image cap">
@@ -167,7 +166,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 card-item" data-category="Trabalho">
           <div class="card">
             <img class="card-img-top"
               src="https://blog.sekolahdesain.id/wp-content/uploads/2023/09/Futura-92-600x400.png" alt="Card image cap">
@@ -179,7 +178,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 card-item" data-category="Lazer">
           <div class="card">
             <img class="card-img-top"
               src="https://th.bing.com/th/id/OIP.SbObk57RM0xibaNR0boN0QHaEv?w=1250&h=800&rs=1&pid=ImgDetMain"
@@ -192,7 +191,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 card-item" data-category="Marketing">
           <div class="card">
             <img class="card-img-top"
               src="https://image-cdn.hypb.st/https://hypebeast.com/image/2023/12/google-new-ai-model-gemini-launch-info-1.jpg?cbr=1&q=90"
@@ -205,7 +204,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-4 card-item" data-category="Trabalho">
           <div class="card">
             <img class="card-img-top" src="https://www.mlyearning.org/wp-content/uploads/2023/05/Copy-AI-1.jpg"
               alt="Card image cap">
@@ -218,12 +217,61 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <footer>
+    <footer>
 
-        <div class="footer"> © Turma 6 - Puc Minas 2024. Todos os direitos reservados.</div>
-      </footer>
-
+      <div class="footer"> © Turma 6 - Puc Minas 2024. Todos os direitos reservados.</div>
+    </footer>
+    <script>
+      // Função para filtrar os cards com base na categoria
+      function filterCards(category) {
+        const cards = document.querySelectorAll('.card-item');
+        cards.forEach(card => {
+          const cardCategory = card.getAttribute('data-category');
+          if (category === 'all' || cardCategory === category) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+  
+      // Função para lidar com a pesquisa
+      function handleSearch(event) {
+        const searchTerm = event.target.value.toLowerCase();
+        const cards = document.querySelectorAll('.card-item');
+        cards.forEach(card => {
+          const cardTitle = card.querySelector('.card-title').textContent.toLowerCase();
+          if (cardTitle.includes(searchTerm)) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      }
+  
+      // Event listener para a barra de pesquisa
+      const searchBar = document.getElementById('searchbar');
+      searchBar.addEventListener('input', handleSearch);
+  
+      // Event listener para os botões de filtro
+      const filterButtons = document.querySelectorAll('.filtro-categoria');
+      filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const category = button.getAttribute('data-filter');
+          filterCards(category);
+          // Salvar a categoria no Local Storage
+          localStorage.setItem('category', category);
+        });
+      });
+  
+      // Recuperar a categoria do Local Storage, se existir
+      const savedCategory = localStorage.getItem('category');
+      if (savedCategory) {
+        filterCards(savedCategory);
+      }
+    </script>
+  
 </body>
-
 </html>
