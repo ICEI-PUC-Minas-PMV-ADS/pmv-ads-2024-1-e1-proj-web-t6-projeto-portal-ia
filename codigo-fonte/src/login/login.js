@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 });
 
+<<<<<<< HEAD
 function efetuarLogin(login, senha) {
     // Simulação de uma chamada a uma API de autenticação
     fetch('https://sua-api-de-autenticacao.com/login', {
@@ -50,6 +51,16 @@ function efetuarLogin(login, senha) {
         console.error('Erro:', error);
         alert('Ocorreu um erro. Tente novamente mais tarde.');
     });
+=======
+    const indexUsuario = usuarios.findIndex(usuario => (campoLogin.value == usuario.emailCad || campoLogin.value == usuario.cellphoneNumberCad) && campoPalavraSecreta.value == usuario.respostaSecreta);
+
+    return indexUsuario;
+}
+
+
+function lerUsuariosDoLocalStorage() {
+    return JSON.parse(localStorage.getItem('listUser'));
+>>>>>>> 94a63e6ea52b31414275e9678b8416dcdc83a157
 }
 
 function limparCampos() {
@@ -72,6 +83,7 @@ function definirNovaSenha() {
     // Função para definir a nova senha
 }
 
+<<<<<<< HEAD
 function toggleIconeMostrarSenha(inputId) {
     const input = document.getElementById(inputId);
     const icon = document.querySelector(`#${inputId} + i`);
@@ -86,3 +98,26 @@ function toggleIconeMostrarSenha(inputId) {
         icon.classList.add('ri-eye-off-fill');
     }
 }
+=======
+const login = document.getElementById('login');
+const senha = document.getElementById('senha');
+
+/* validar usuário e senha*/
+function validarUsuarioSenha() {
+    if (!login.value || !senha.value) {
+        alert("Usuário ou senha inválido");
+        return;
+    }
+
+    const usuarios = JSON.parse(localStorage.getItem('listUser'));
+
+    const indexUsuario = usuarios.findIndex(usuario => ((login.value == usuario.emailCad || login.value == usuario.cellphoneNumberCad) && senha.value == usuario.passwordUserCad));
+
+    if (indexUsuario < 0) {
+        alert("Usuário ou senha inválido");
+    } else {
+        localStorage.setItem('usuarioLogado', usuarios[indexUsuario].emailCad);
+        window.location.href = '../index.html';
+    }
+}
+>>>>>>> 94a63e6ea52b31414275e9678b8416dcdc83a157
