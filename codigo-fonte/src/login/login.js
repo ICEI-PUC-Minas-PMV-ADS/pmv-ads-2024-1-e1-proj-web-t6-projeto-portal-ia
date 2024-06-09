@@ -51,6 +51,7 @@ function encontrarIndexUsuario() {
     return indexUsuario;
 }
 
+
 function lerUsuariosDoLocalStorage() {
     return JSON.parse(localStorage.getItem('listUser'));
 }
@@ -125,3 +126,24 @@ function definirNovaSenha() {
     }
 }
 
+const login = document.getElementById('login');
+const senha = document.getElementById('senha');
+
+/* validar usuário e senha*/
+function validarUsuarioSenha() {
+    if (!login.value || !senha.value) {
+        alert("Usuário ou senha inválido");
+        return;
+    }
+
+    const usuarios = JSON.parse(localStorage.getItem('listUser'));
+
+    const indexUsuario = usuarios.findIndex(usuario => ((login.value == usuario.emailCad || login.value == usuario.cellphoneNumberCad) && senha.value == usuario.passwordUserCad));
+
+    if (indexUsuario < 0) {
+        alert("Usuário ou senha inválido");
+    } else {
+        localStorage.setItem('usuarioLogado', usuarios[indexUsuario].emailCad);
+        window.location.href = '../index.html';
+    }
+}

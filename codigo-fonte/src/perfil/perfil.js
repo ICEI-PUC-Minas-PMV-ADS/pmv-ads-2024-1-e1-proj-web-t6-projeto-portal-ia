@@ -20,7 +20,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
             if (usuarioLogado == usuario.emailCad) {
                 return i;
-            } else {
+            }
+
+            if (i == usuarios.length - 1) {
                 return -1;
             }
         }

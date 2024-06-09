@@ -33,9 +33,9 @@
             <h3>Login</h3>
 
             <section class="secao-login">
-                <form class="formulario" onsubmit="mostrarAlerta(event)">
+                <form class="formulario">
                     <div class="email">
-                        <input type="text" placeholder="E-mail ou telefone" id="Login" required>
+                        <input type="text" placeholder="E-mail ou telefone" id="login" required>
                         <i class="email"></i>
                     </div>
                     <div class="senha mt-3">
@@ -53,7 +53,7 @@
                         a senha</a>
 
                     <div class="confirmar">
-                        <button class="btn-gradient">Confirmar</button>
+                        <button type="button" onclick="validarUsuarioSenha()" class="btn-gradient">Confirmar</button>
                     </div>
                 </form>
 
