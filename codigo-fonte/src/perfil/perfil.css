@@ -50,7 +50,6 @@ video {
 .perfil {
     padding-bottom: 1.5rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
@@ -60,6 +59,18 @@ video {
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+
+
+
+.perfil .alterar-foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
 }
 
 #change-photo-btn {
