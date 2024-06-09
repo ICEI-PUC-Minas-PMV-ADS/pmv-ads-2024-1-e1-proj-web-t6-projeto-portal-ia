@@ -82,3 +82,11 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | **Resultado Esperado** | 1 - O sistema deve permitir o login apenas para usuários com credenciais válidas.<br>2 - O sistema deve exibir mensagens de erro adequadas para credenciais inválidas. |
 | **Nota** | Esse caso de teste verifica se o sistema está validando corretamente as credenciais do usuário durante o processo de login. Certifique-se de realizar o teste com diferentes combinações de credenciais válidas e inválidas para garantir que o sistema esteja funcionando conforme o esperado. |
 | **Responsável** | Hiago Tavares |
+
+|Caso de Teste    | CT-11 - Tela de Login - Recuperar Senha |
+|:---|:---|
+| Requisitos Associados |  |
+| Objetivo do Teste |Validar a funcionalidade de recuperação de senha.|
+| Passos | 1. Acessar a tela de login do sistema.<br>2. Clicar no link de "Esqueci a senha".<br>3. Inserir um endereço de e-mail válido associado a uma conta existente.<br>4. Preencher o e-mail ou telefone e a palavra chave.<br>7.Na parte de redefinição de senha, inserir uma nova senha válida (de acordo com as exigências de validação, como comprimento mínimo, caracteres especiais, etc.).<br>8. Confirmar a nova senha.<br>9. Verificar a mensagem de confirmação de que a senha foi alterada com sucesso.<br>10. Voltar à tela de login e fazer login com a nova senha para garantir que a alteração foi bem-sucedida. |
+| Critérios de êxito | 1. O usuário deve conseguir visualizar a tela de perfil após fazer o login.<br>2. Verificar se todos os campos podem ser preenchidos corretamente.<br>3. Mensagens de erro devem exibidas quando as entradas forem inválidas.<br>
+| Responsável | Jéssica Melo.|
