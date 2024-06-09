@@ -125,6 +125,13 @@ document.addEventListener('DOMContentLoaded', function() {
         nomeDisplay.textContent = fields.nome.value;
         nomeDisplay.classList.remove('hidden');
         nomeInput.classList.add('hidden');
+
+        // Esconde os campos
+        fields.email.classList.add('hidden');
+        fields.telefone.classList.add('hidden');
+        fields.profissao.classList.add('hidden');
+        fields.localizacao.classList.add('hidden');
+        fields.biografia.classList.add('hidden');
     });
 
     // Evento do botão cancelar
@@ -138,6 +145,13 @@ document.addEventListener('DOMContentLoaded', function() {
         nomeDisplay.textContent = 'Fulano de tal da Silva';
         nomeDisplay.classList.remove('hidden');
         nomeInput.classList.add('hidden');
+
+        // Mostra os campos novamente
+        fields.email.classList.remove('hidden');
+        fields.telefone.classList.remove('hidden');
+        fields.profissao.classList.remove('hidden');
+        fields.localizacao.classList.remove('hidden');
+        fields.biografia.classList.remove('hidden');
     });
 
     // Eventos de entrada para validação dos campos
