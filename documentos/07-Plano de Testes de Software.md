@@ -61,3 +61,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Passos | 1 - Verifique se o campo de busca está presente na página inicial. Digite um termo de pesquisa e verifique os resultados. Digite um termo inexistente e verifique a resposta da aplicação.<br>2 - Verifique se os filtros (Estudos, Trabalho, Lazer, Marketing) estão presentes na página inicial. Clique em cada filtro e verifique os resultados.<br>3 - Verifique se cada cartão de IA contém um link "Acessar".Clique no link "Acessar" e verifique o redirecionamento.
 | Critérios de êxito | 1 - O campo de busca deve estar visível. Resultados devem aparecer de acordo com o termo pesquisado. Mensagem apropriada deve ser exibida para termos inexistentes.<br>2 -Os filtros devem estar visíveis. Resultados devem aparecer de acordo com o filtro aplicado.<br>3 - Todos os cartões de IA devem conter um link "Acessar". O redirecionamento deve levar para a página da IA correspondente. |
 | Responsável | Willian Abreu. |
+
+
+|Caso de Teste    | CT-7 - Tela de Perfil |
+|:---|:---|
+| Requisitos Associados | RF-05 e RF-13 |
+| Objetivo do Teste | Validar e confirmar o preenchimento de todos os campos de dados e a alteração de imagem/foto.|
+| Passos | 1. Fazer login no sistema com um usuário válido.<br>2. Navegar até a tela de perfil.<br>3. Verificar que todos os campos obrigatórios estão presentes e vazios (ou com dados de exemplo se aplicável).<br>4. Preencher todos os campos de acordo com as exigências de validação (ex: formatos de data, restrições de caracteres, etc.).<br>5. Tentar enviar um formulário com dados inválidos e verificar se as mensagens de erro são exibidas corretamente.<br>6. Fazer upload de uma nova imagem/foto de perfil.<br>7. Verificar que a nova imagem foi salva e está sendo exibida corretamente.<br>8. Salvar as alterações.<br>9. Fazer logout e login novamente para garantir que as alterações persistem. |
+| Critérios de êxito | 1. O usuário consegue visualizar a tela de perfil após o login.<br>2. Todos os campos podem ser preenchidos corretamente.<br>3. Mensagens de erro são exibidas para entradas inválidas.<br>4. A imagem/foto de perfil pode ser alterada e a nova imagem é exibida corretamente.<br>5. As alterações nos dados e na imagem persistem após o logout e login novamente.|
+| Responsável | Winnie Yvelise.|
