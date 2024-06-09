@@ -69,6 +69,13 @@ ________________________________________________________________________________
 
 - Critérios 1, 2 e 3;
   
+Parte 1
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164056803/c7a4a8f6-b6e5-4198-8bce-fa4bc31affe4
+
+Parte 2
+
+
 
 |Caso de Teste    | CT-05.1 - Tela Inicial |
 |:---|:---|
@@ -76,6 +83,15 @@ ________________________________________________________________________________
 | Responsável pela execução do caso de Teste | Winnie Yvelise |
 
 - Critérios 1, 2 ,3 e 4;
+
+Parte 1
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164056803/f75d280e-daec-4d3b-a172-bfb345059aa1
+
+Parte 2
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164056803/7e0864c1-71db-4736-83f9-4d830867fcc1
+
 
 
 ____________________________________________________________________________________________________________________________________________________________
@@ -90,4 +106,17 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________________________________________________________________________
 
+|Caso de Teste    | CT-11 - Tela de Login - Recuperar Senha |
+|:---|:---|
+| Resultados obtidos | Critério 1: O usuário consegue visualizar a tela de perfil após o login corretamente. <br/>Critério 2: Todos os campos podem ser preenchidos corretamente.. <br/>Critério 3: As mensagens de erro são exibidas para entradas inválidas.  |
+| Responsável pela execução do caso de Teste | Jessica Melo |
 
+- Critérios 1, 2 e 3;
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164056803/9bffc0de-04df-488d-a8bc-1e98fb9bd6e5
+
+
+
+____________________________________________________________________________________________________________________________________________________________
