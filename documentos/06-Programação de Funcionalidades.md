@@ -59,10 +59,9 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 ### Tela de contato
 
-![telaContato](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/000ca792-3f8d-44c1-8640-ddb65d8191ce)
+![Captura de tela 2024-06-03 193949](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/61f64106-cca4-4162-9bc8-41ad39b000f0)
 
-![telaContato2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/52d48985-9f82-4f11-b09d-31bc4183c6cb)
-
+![Captura de tela 2024-06-03 193957](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/d2ef8829-52af-4aed-837a-833cf2b7c0ec)
 
 #### Requisito atendido
 
@@ -254,4 +253,31 @@ Na tela inicial, o usuário deve se dirigir para a parte superior direita para a
 
 Hiago Antonio Tavares
 
+___________________________________________________________________________________________________________
 
+### Tela Listagem do Fórum
+
+![Captura de tela 2024-06-03 194025](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/77aacf16-d268-4286-9d14-6d6f718e1aaa)
+
+#### Requisito atendido
+
+RF-12: O site deve conter área para comunidade/fórum.
+
+#### Artefatos da funcionalidade
+
+forum.css
+
+forum.html
+
+forum.js
+
+
+#### Instruções de acesso
+
+Acessar tela de inicial do fórum através de botão no header.
+
+
+#### Responsável
+
+Cássia de Arruda Nicolau Santos
+</br>Tiago Marques Leite

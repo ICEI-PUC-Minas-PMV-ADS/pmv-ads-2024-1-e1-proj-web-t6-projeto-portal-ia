@@ -15,7 +15,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
         defer></script>
-    <script type="module" src="./login.js" defer></script>
+    <script defer src="./login.js"></script>
 
     <title>AI.Explorer | Login</title>
 </head>
@@ -35,11 +35,11 @@
             <section class="secao-login">
                 <form class="formulario" onsubmit="mostrarAlerta(event)">
                     <div class="email">
-                        <input type="text" placeholder="E-mail ou telefone" id="Login">
+                        <input type="text" placeholder="E-mail ou telefone" id="Login" required>
                         <i class="email"></i>
                     </div>
                     <div class="senha mt-3">
-                        <input type="password" placeholder="Senha" id="senha">
+                        <input type="password" placeholder="Senha" id="senha" required>
                         <i class="icon-senha">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
                                 <path
@@ -48,12 +48,9 @@
                             </svg>
                         </i>
                     </div>
-                    <a class="esqueci-senha" href="#">Esqueci a senha</a>
-
-                    <!-- modal -->
-                    <div class="modal-dialog modal-dialog-centered">
-                        ...
-                    </div>
+                    <a onclick="limparCampos()" data-bs-toggle="modal" data-bs-target="#modalEsqueciSenha"
+                        class="esqueci-senha" href="#">Esqueci
+                        a senha</a>
 
                     <div class="confirmar">
                         <button class="btn-gradient">Confirmar</button>
@@ -71,12 +68,101 @@
                     <p>Não tem uma conta ainda?</p>
                 </div>
                 <div class="cadastro mt-3">
-                    <a href="#">Cadastre-se</a>
+                    <a href="../cadastro/index.html">Cadastre-se</a>
                 </div>
             </section>
         </div>
         <div>
             <img class="boneca" src="../assets/imagens/login.png" alt="login">
+        </div>
+
+        <!-- modal - preencher email/telefone e palavra secreta -->
+        <div class="modal fade" id="modalEsqueciSenha" tabindex="-1" aria-hidden="true">
+
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content fundo-vidro">
+                    <div class="modal-header">
+                        <h1 class="modal-title" id="tituloModal">Recuperar senha</h1>
+                        <button class="btn fechar" data-bs-dismiss="modal">
+                            <i class="ri-close-line" data-bs-dismiss="modal"></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="campo col-12">
+                                <label for="campoLogin">Preencha seu e-mail ou telefone</label>
+                                <input onkeyup="" id="campoLogin" type="text" placeholder="E-mail ou telefone" required>
+                            </div>
+
+                            <div class="campo col-12">
+                                <label for="campoPalavraSecreta">Preencha sua palavra
+                                    secreta</label>
+                                <input id="campoPalavraSecreta" type="text" placeholder="Palavra secreta" required>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button onclick="validarPerguntaSecreta()" type="button"
+                            class="btn btn-gradient">RECUPERAR</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- modal - preencher as novas senhas -->
+        <div class="modal fade" id="modalRecuperarSenha" tabindex="-1" aria-hidden="true">
+            <div id="modalRecuperarSenha" class="modal-dialog modal-dialog-centered">
+                <div class="modal-content fundo-vidro esqueci-senha">
+
+                    <div class="modal-header nova-senha">
+                        <h1 class="modal-title ">Defina uma nova senha</h1>
+                        <button class=" btn fechar" data-bs-dismiss="modal">
+                            <i class="ri-close-line" data-bs-dismiss="modal"></i>
+                        </button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div class="row">
+                            <div class="campo col-12">
+                                <label class="" for="novaSenha">Nova Senha</label>
+                                <div class="mostrar">
+                                    <input class="senha input-ontline" id="novaSenha" class="senha"
+                                        onkeyup="validarNovaSenha()" type="password" placeholder="Ex:. @123fulano"
+                                        required>
+                                    <i id="iconeNovaSenha" onclick="toggleIconeMostrarSenha('novaSenha')"
+                                        class="ri-eye-off-fill"></i>
+                                </div>
+                                <span id="msgErro" class="mensagem-de-erro">A senha precisa de pelo menos um caractere
+                                    especial.</span>
+                            </div>
+
+                            <div class="campo col-12">
+                                <label for="confirmarNovaSenha">Confirmar nova senha</label>
+                                <div class="mostrar">
+                                    <input class="senha input-ontline" id="confirmarNovaSenha"
+                                        onkeyup="confirmarSenha()" type="password" placeholder="Ex:. @123fulano"
+                                        required>
+                                    <i id="iconeConfirmarNovaSenha"
+                                        onclick="toggleIconeMostrarSenha('confirmarNovaSenha')"
+                                        class="ri-eye-off-fill"></i>
+                                </div>
+                                <span id="msgErroConfirmacao" class="mensagem-de-erro">As senhas não batem. Tente
+                                    novamente.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button onclick="definirNovaSenha()" type="button" class="btn btn-gradient">DEFINIR NOVA
+                            SENHA</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 

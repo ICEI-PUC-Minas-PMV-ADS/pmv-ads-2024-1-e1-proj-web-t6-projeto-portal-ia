@@ -4,78 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - A.I Explorer</title>
+    <link rel="icon" href="../assets/favicon-ICON.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css" />
+    <script defer src="js/index.js"></script>
+    <title>Cadastro - A.I Explorer</title>
 </head>
 
 <body class="contato-background">
-    <nav class="navbar navbar-expand-lg navbar-light mb-5">
-        <a class="navbar-expand" href="./index.html">
-            <img src="/codigo-fonte/src/assets/logo.svg" alt="Logo" height="20" class="d-inline-block align-text-top">
-        </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justifyCenter" id="navbarSupportedContent">
-            <div class="dropdownLayout smallMLeft">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown smallMLeft smallMRight">
-                        <a class="nav-link dropdown-toggle whiteColor" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Texto
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Something</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown smallMRight">
-                        <a class="nav-link dropdown-toggle whiteColor" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Tradução
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Something</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown smallMRight">
-                        <a class="nav-link dropdown-toggle whiteColor" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Imagens
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Something</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown smallMRight">
-                        <a class="nav-link dropdown-toggle whiteColor" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Vídeos
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Something</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="miniMLeft buttonLayout">
-                <a href="/codigo-fonte/src/contato/contato.html">
-                    <button class="btn btn-outline-success my-2 my-sm-0 buttonStyle">Contato</button>
-                </a>
-                <a href="/codigo-fonte/src/resultados/resultados.html">
-                    <button class="btn btn-outline-success my-2 my-sm-0 buttonStyle">Descubra</button>
-                </a>
-                <a href="/codigo-fonte/src/forum/forum.html">
-                    <button class="btn btn-outline-success my-2 my-sm-0 buttonStyle">Fórum</button>
-                </a>
-                <a href="/codigo-fonte/src/login/login.html">
-                    <button class="btn btn-outline-success my-2 my-sm-0 buttonStyle">Login</button>
-                </a>
-
-            </div>
-        </div>
-    </nav>
     <div class="container">
+        <div class="voltar">
+            <a href="../login/login.html" data-bs-toggle="tooltip" data-bs-title="Voltar">
+                <i class="ri-arrow-left-s-line"></i>
+            </a>
+        </div>
         <div class="alinhamento">
             <img src="img/woman-register-page.png" alt="Mulher se registrando" class="img01">
             <div class="card">
@@ -83,48 +26,49 @@
                 <div id="msgError"></div>
                 <div id="msgSuccess"></div>
                 <div class="label-float">
-                    <input type="text" id="namePerson" placeholder=" " required />
-                    <label id="labelName" for="namePerson">Nome Completo</label>
+                    <label id="labelName" for="namePerson"></label>
+                    <input type="text" id="namePerson" placeholder=" Nome Completo" required />
                 </div>
 
                 <div class="label-float">
-                    <input type="text" id="userName" placeholder=" " required />
-                    <label id="labelUsername" for="userName">Usuário</label>
+                    <label id="labelUsername" for="userName"></label>
+                    <input type="text" id="userName" placeholder=" Usuário" required />
                 </div>
 
                 <div class="label-float">
-                    <input type="email" id="email" placeholder=" " required />
-                    <label id="labelEmail" for="email">E-mail</label>
+                    <label id="labelEmail" for="email"></label>
+                    <input type="email" id="email" placeholder=" E-mail" required />
                 </div>
 
                 <div class="label-float">
-                    <input type="tel" id="cellphoneNumber" placeholder=" " required />
-                    <label id="labelCellphone" for="cellphoneNumber">Celular</label>
+                    <label id="labelCellphone" for="cellphoneNumber"></label>
+                    <input type="tel" id="cellphoneNumber" placeholder=" Celular" required />
                 </div>
 
                 <div class="label-float">
-                    <input type="password" id="passwordUser" placeholder=" " required />
-                    <label id="labelPassword" for="passwordUser">Senha</label>
+                    <label id="labelPassword" for="passwordUser"></label>
+                    <input onkeyup="validarSenha()" type="password" id="passwordUser" placeholder=" Senha" required />
                 </div>
 
                 <div class="label-float">
-                    <input type="password" id="passwordUserConfirm" placeholder=" " required />
-                    <label id="labelPasswordConfirm" for="passwordUserConfirm">Confirmar senha</label>
+                    <label id="labelPasswordConfirm" for="passwordUserConfirm"></label>
+                    <input onkeyup="confirmarSenha()" type="password" id="passwordUserConfirm"
+                        placeholder=" Confirmar Senha" required />
                 </div>
 
-                <label class="perguntaSecreta" for="perguntaSecreta">Pergunta secreta</label>
+                <label class="pergunta-secreta" for="perguntaSecreta">Pergunta secreta</label>
                 <div class="label-float">
 
                     <select onchange="habilitarCampoResposta()" name="perguntaSecreta" id="perguntaSecreta">
-                        <option value="">--Selecione--</option>
+                        <option value="">--Selecione uma pergunta--</option>
                         <option value="pergunta1">Qual o nome do seu primeiro animal?</option>
                         <option value="pergunta2">Qual a sua comida favorita?</option>
                         <option value="pergunta3">Onde você cursou o ensino médio?</option>
                     </select>
                 </div>
                 <div class="label-float">
-                    <input type="text" id="respostaSecreta" required disabled />
-                    <label id="labelRespostaSecreta" for="respostaSecreta">Resposta</label>
+                    <label id="labelRespostaSecreta" for="respostaSecreta"></label>
+                    <input type="text" id="respostaSecreta" required disabled placeholder=" Resposta" />
                 </div>
 
 
@@ -134,13 +78,6 @@
             </div>
         </div>
     </div>
-
-
-    <footer>
-        <p class="m-0">© Turma 6 - PUC Minas 2024. Todos os direitos reservados.</p>
-    </footer>
-
-    <script src="js/index.js"></script>
 </body>
 
 </html>

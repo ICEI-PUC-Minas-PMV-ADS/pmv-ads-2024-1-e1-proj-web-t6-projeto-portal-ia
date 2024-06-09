@@ -79,9 +79,14 @@ header {
     border: none;
 }
 
-.nav-link .dropdown {
+.navbar-nav .nav-link {
+    color: #fafafa;
     transition: color .45s ease-in-out, background-color .45s ease-in-out, border-color .45s ease-in-out;
-    font-weight: 300;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #820ad1;
 }
 
 /* botões com secundarios */
@@ -137,17 +142,18 @@ header {
 /* main - secão pesquisa */
 main {
     width: 100vw;
-    position: relative;
-    padding-top: 230px;
+
+    padding-top: 260px;
 }
 
-main video {
+main img {
     width: 100vw;
+    height: 100vh;
     box-shadow: 20px 20px 100px 40px #1e0e2a;
     z-index: -1;
     position: absolute;
     bottom: 0;
-    opacity: 50%;
+    opacity: 80%;
 }
 
 /* pesquisa - div agrupando o título e o campo pesquisa */
@@ -169,7 +175,7 @@ main video {
     font-size: 2rem;
     letter-spacing: -0.05em;
     margin-top: 0.5rem;
-    margin-bottom: 7rem;
+    margin-bottom: 4rem;
 }
 
 /* detalhes do campo de pesquisa */
@@ -210,15 +216,13 @@ main video {
     margin: 5rem 0;
 }
 
-.secao-introducao .wrapper {
-    width: 80%;
+.wrapper {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
 .container-titulo {
-    margin-left: 10%;
     width: 80%;
 }
 
@@ -226,55 +230,31 @@ main video {
     font-size: 3.5rem;
     font-family: 'Varino';
     letter-spacing: -0.05em;
-    padding-bottom: 1rem;
+    padding: 1rem 0;
 }
 
 .secao-introducao .container-video {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20rem;
     margin-top: 5rem;
 }
 
 .container-video iframe {
     border: #460e70 solid 2px;
     box-shadow: 2px 2px 40px 4px #820ad1;
+    margin-bottom: 3rem;
 }
 
-.secao-introducao {
-    position: relative;
-}
-
-.secao-introducao hr {
-    position: absolute;
-    color: #fafafa;
-    bottom: 148px;
-    width: 100%;
-    border: #fafafa 1px solid;
-    z-index: -1;
-    opacity: 100;
-    border-radius: 30px;
-}
-
-.secao-introducao .bonecas {
-    width: 40%;
-    position: absolute;
-    right: 200px;
-}
 
 /* section - seção entretenimento */
-.secao-entretenimento {
 
+.secao-entretenimento {
     position: relative;
     display: flex;
     justify-content: center;
 }
 
 .secao-entretenimento .wrapper {
-
-    padding: 14rem 0;
+    width: 100%;
+    padding: 5rem 0;
 }
 
 .secao-entretenimento>div {
@@ -283,13 +263,64 @@ main video {
     flex-direction: column;
 }
 
-.marquee .marquee-container {
+.marquee {
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
 
+.marquee:before,
+.marquee:after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+
+.marquee:before {
+    left: 0;
+    background: linear-gradient(to right, #111 0%, transparent 100%);
+}
+
+.marquee:after {
+    right: 0;
+    background: linear-gradient(to left, #111 0%, transparent 100%);
+}
+
+
+.marquee-container {
+    height: 100%;
     display: flex;
-    gap: 3rem;
     align-items: center;
     justify-content: center;
     padding-top: 3rem;
+    list-style-type: none;
+    animation: cartazanimado 20s linear infinite;
+}
+
+@keyframes cartazanimado {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-200vw);
+    }
+}
+
+.marquee-container:hover {
+    animation-play-state: paused;
+}
+
+.cartaz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    flex-shrink: 1;
+    white-space: nowrap;
 }
 
 .cartaz img {
@@ -333,8 +364,9 @@ main video {
     padding: 1rem 0;
 }
 
-.secao-entretenimento video {
+.secao-entretenimento>img {
     width: 100vw;
+    height: 100%;
     z-index: -1;
     position: absolute;
 }
