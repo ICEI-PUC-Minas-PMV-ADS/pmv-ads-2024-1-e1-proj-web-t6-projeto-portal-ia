@@ -106,7 +106,7 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________________________________________________________________________
 
-|Caso de Teste    | CT-11 - Tela de Login - Recuperar Senha |
+|Caso de Teste    | CT-08 - Tela de Login - Recuperar Senha |
 |:---|:---|
 | Resultados obtidos | Critério 1: O usuário consegue visualizar a tela de perfil após o login corretamente. <br/>Critério 2: Todos os campos podem ser preenchidos corretamente.. <br/>Critério 3: As mensagens de erro são exibidas para entradas inválidas.  |
 | Responsável pela execução do caso de Teste | Jessica Melo |
