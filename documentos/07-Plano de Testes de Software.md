@@ -51,7 +51,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Requisitos Associados | RF-03 e RF-05 |
 | Objetivo do Teste | Verificar se o filtro de pesquisa funciona corretamente e se todos os links na página inicial estão funcionando conforme esperado. |
 | Passos | 1 - Navegar pela página inicial e localizar o filtro de pesquisa.<br>2 - Inserir diferentes termos de pesquisa no campo e pressionar "Enter".<br>3 - Verificar se você está sendo redirecionado corretamente para a página de resultados.<br>4 - Confirmar se os resultados exibidos correspondem aos termos de pesquisa inseridos <br>5 - Navegar pela página inicial e clicar em todos os links disponíveis.<br>6 - Verificar se todos os links redirecionam para as páginas corretas e sem erros. |
-| Critérios de êxito | 1 - O filtro de pesquisa deve exibir resultados relevantes e corretos para os termos de pesquisa inseridos.<br>2 - A página de resultados de busca deve carregar corretamente após a busca.<br>3 - Todos os filtros adicionais devem funcionar corretamente e refinar os resultados conforme esperado.<br>4 - Todos os links na página inicial devem redirecionar para as páginas corretas sem erros. |
+| Critérios de êxito | 1 - O filtro de pesquisa deve exibir resultados relevantes e corretos para os termos de pesquisa inseridos.<br>2 - A página de resultados de busca deve carregar corretamente após a busca.<br>3 - Todos os filtros adicionais devem funcionar corretamente.<br>4 - Todos os links na página inicial devem redirecionar para as páginas corretas sem erros. |
 | Responsável | Jéssica Melo. |
 
 |Caso de Teste    | CT-6 - Tela de Resultados |
@@ -61,3 +61,24 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Passos | 1 - Verifique se o campo de busca está presente na página inicial. Digite um termo de pesquisa e verifique os resultados. Digite um termo inexistente e verifique a resposta da aplicação.<br>2 - Verifique se os filtros (Estudos, Trabalho, Lazer, Marketing) estão presentes na página inicial. Clique em cada filtro e verifique os resultados.<br>3 - Verifique se cada cartão de IA contém um link "Acessar".Clique no link "Acessar" e verifique o redirecionamento.
 | Critérios de êxito | 1 - O campo de busca deve estar visível. Resultados devem aparecer de acordo com o termo pesquisado. Mensagem apropriada deve ser exibida para termos inexistentes.<br>2 -Os filtros devem estar visíveis. Resultados devem aparecer de acordo com o filtro aplicado.<br>3 - Todos os cartões de IA devem conter um link "Acessar". O redirecionamento deve levar para a página da IA correspondente. |
 | Responsável | Willian Abreu. |
+
+
+|Caso de Teste    | CT-7 - Tela de Perfil |
+|:---|:---|
+| Requisitos Associados | RF-05 e RF-13 |
+| Objetivo do Teste | Validar e confirmar o preenchimento de todos os campos de dados e a alteração de imagem/foto.|
+| Passos | 1. Fazer login no sistema com um usuário válido.<br>2. Navegar até a tela de perfil.<br>3. Verificar que todos os campos obrigatórios estão presentes e vazios (ou com dados de exemplo se aplicável).<br>4. Preencher todos os campos de acordo com as exigências de validação (ex: formatos de data, restrições de caracteres, etc.).<br>5. Fazer upload de uma nova imagem/foto de perfil.<br>6. Verificar que a nova imagem foi salva e está sendo exibida corretamente.<br>7. Salvar as alterações.<br>8. Fazer logout e login novamente para garantir que as alterações persistem. |
+| Critérios de êxito | 1. O usuário consegue visualizar a tela de perfil após o login.<br>2. Todos os campos podem ser preenchidos corretamente.<br>3. Mensagens de erro são exibidas para entradas inválidas.<br>4. A imagem/foto de perfil pode ser alterada e a nova imagem é exibida corretamente.<br>5. As alterações nos dados e na imagem persistem após o logout e login novamente.|
+| Responsável | Winnie Yvelise.|
+
+
+
+| **Caso de Teste**    | **CT-10 - Tela de Login** |
+|:---|:---|
+| Requisitos Associados | RF-10 |
+| **Descrição** | Este caso de teste verifica se o sistema valida corretamente o usuário e a senha fornecidos pelo usuário no formulário de login. |
+| **Passos** | 1 - Abra a página de login do sistema.<br>2 - Insira um nome de usuário válido e uma senha válida nos campos correspondentes.<br>3 - Clique no botão "Confirmar" para efetuar o login. |
+| **Expectativa** | 1 - O sistema deve validar as credenciais inseridas.<br>2 - Se as credenciais estiverem corretas, o sistema deve redirecionar o usuário para a página inicial do sistema.<br>3 - Se as credenciais estiverem incorretas, o sistema deve exibir uma mensagem de erro indicando que o usuário ou a senha é inválido. |
+| **Resultado Esperado** | 1 - O sistema deve permitir o login apenas para usuários com credenciais válidas.<br>2 - O sistema deve exibir mensagens de erro adequadas para credenciais inválidas. |
+| **Nota** | Esse caso de teste verifica se o sistema está validando corretamente as credenciais do usuário durante o processo de login. Certifique-se de realizar o teste com diferentes combinações de credenciais válidas e inválidas para garantir que o sistema esteja funcionando conforme o esperado. |
+| **Responsável** | Hiago Tavares |

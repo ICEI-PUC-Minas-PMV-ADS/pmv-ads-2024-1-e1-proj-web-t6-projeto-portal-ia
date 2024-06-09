@@ -59,18 +59,35 @@ Critério 3:
 
 ![Captura de tela 2024-06-05 201040](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/87585893/0393ca61-1f32-4cfc-866e-f3c8e81b7c2d)
 
+____________________________________________________________________________________________________________________________________________________________
 
 
+|Caso de Teste    | CT-05 - Tela Inicial |
+|:---|:---|
+| Resultados obtidos | Critério 1: Botões e links do header redirecionam para as páginas corretas. <br/>Critério 2: Ao ser clicada, a logo redireciona para a tela inicial. <br/>Critério 3: Menus em drop-donw funcionando corretamente com exceção da ultima aba.  |
+| Responsável pela execução do caso de Teste | Winnie Yvelise |
+
+- Critérios 1, 2 e 3;
+  
+
+|Caso de Teste    | CT-05.1 - Tela Inicial |
+|:---|:---|
+| Resultados obtidos | Critério 1: O filtro de pesquisa exibe os resultados relevantes corretamente. <br/>Critério 2: Página de resultados de busca carrega corretamente após a busca. <br/>Critério 3: Filtros funcionando corretamente. <br/>Critério 4: Todos os links disponíveis são direcionados corretamente quando clicados.  |
+| Responsável pela execução do caso de Teste | Winnie Yvelise |
+
+- Critérios 1, 2 ,3 e 4;
 
 
+____________________________________________________________________________________________________________________________________________________________
+
+|Caso de Teste    | CT-07 - Tela de Perfil |
+|:---|:---|
+| Resultados obtidos | Critério 1: ---------. <br/>Critério 2: --------. <br/>Critério 3: ---------. <br/>Critério 4: -----------. <br/>Critério 5: -----------. |
+| Responsável pela execução do caso de Teste | Jessica Melo |
+
+- Critérios 1, 2 ,3, 4 e 5;
 
 
-
-
-
-
-
-
-
+____________________________________________________________________________________________________________________________________________________________
 
 

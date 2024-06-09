@@ -33,7 +33,7 @@
             <h3>Login</h3>
 
             <section class="secao-login">
-                <form class="formulario">
+                <form id="loginForm" class="formulario">
                     <div class="email">
                         <input type="text" placeholder="E-mail ou telefone" id="login" required>
                         <i class="email"></i>
@@ -58,8 +58,8 @@
                 </form>
 
                 <div class="rede-social">
-                    <button class="btn btn-secundario">Google</button>
-                    <button class="btn btn-secundario">Facebook</button>
+                    <button id="googleButton" class="btn btn-secundario">Google</button>
+                    <button id="facebookButton" class="btn btn-secundario">Facebook</button>
                 </div>
             </section>
 
@@ -76,7 +76,7 @@
             <img class="boneca" src="../assets/imagens/login.png" alt="login">
         </div>
 
-        <!-- modal - preencher email/telefone e palavra secreta -->
+
         <div class="modal fade" id="modalEsqueciSenha" tabindex="-1" aria-hidden="true">
 
             <div class="modal-dialog modal-dialog-centered">
@@ -113,7 +113,7 @@
 
         </div>
 
-        <!-- modal - preencher as novas senhas -->
+
         <div class="modal fade" id="modalRecuperarSenha" tabindex="-1" aria-hidden="true">
             <div id="modalRecuperarSenha" class="modal-dialog modal-dialog-centered">
                 <div class="modal-content fundo-vidro esqueci-senha">
