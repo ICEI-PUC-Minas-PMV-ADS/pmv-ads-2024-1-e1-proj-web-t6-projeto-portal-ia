@@ -27,6 +27,60 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 });
 
+<<<<<<< HEAD
+function efetuarLogin(login, senha) {
+    // Simulação de uma chamada a uma API de autenticação
+    fetch('https://sua-api-de-autenticacao.com/login', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ login: login, senha: senha })
+    })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Se o login for bem-sucedido, redirecione o usuário
+                window.location.href = 'dashboard.html';
+            } else {
+                // Se o login falhar, exiba uma mensagem de erro
+                alert('Login ou senha inválidos. Tente novamente.');
+            }
+        })
+        .catch(error => {
+            console.error('Erro:', error);
+            alert('Ocorreu um erro. Tente novamente mais tarde.');
+        });
+=======
+document.addEventListener('DOMContentLoaded', (event) => {
+    const loginForm = document.getElementById('loginForm');
+
+    loginForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const login = document.getElementById('Login').value;
+        const senha = document.getElementById('senha').value;
+
+        // Aqui você faria uma chamada a uma API de login com os dados do formulário
+        efetuarLogin(login, senha);
+    });
+
+    const googleButton = document.getElementById('googleButton');
+    const facebookButton = document.getElementById('facebookButton');
+
+    if (googleButton) {
+        googleButton.addEventListener('click', () => {
+            alert('Conecte sua conta da plataforma Google');
+        });
+    }
+
+    if (facebookButton) {
+        facebookButton.addEventListener('click', () => {
+            alert('Conecte sua conta da plataforma Facebook');
+        });
+    }
+});
+
 function efetuarLogin(login, senha) {
     // Simulação de uma chamada a uma API de autenticação
     fetch('https://sua-api-de-autenticacao.com/login', {
@@ -100,78 +154,45 @@ function encontrarIndexUsuario() {
 
 function lerUsuariosDoLocalStorage() {
     return JSON.parse(localStorage.getItem('listUser'));
+>>>>>>> 94a63e6ea52b31414275e9678b8416dcdc83a157
 }
 
 function limparCampos() {
-    campoLogin.value = "";
-    campoPalavraSecreta.value = "";
+    // Função para limpar campos do modal de esqueci a senha
+}
+
+function validarPerguntaSecreta() {
+    // Função para validar a pergunta secreta
 }
 
 function validarNovaSenha() {
-
-    const temCaractereEspecial = /[!@#$%^&*(),.?":{}|<>]/.test(novaSenha.value);
-
-    if (temCaractereEspecial || !novaSenha.value) {
-        msgErro.style.visibility = "hidden";
-        novaSenha.classList.remove('input-ontline');
-    } else {
-        msgErro.setAttribute('style', 'color: #F84A4A');
-        msgErro.style.visibility = "visible";
-        novaSenha.classList.add('input-ontline');
-    }
+    // Função para validar a nova senha
 }
 
 function confirmarSenha() {
-    if (novaSenha.value !== confirmarNovaSenha.value) {
-        msgErroConfirmacao.setAttribute('style', 'color: #F84A4A');
-        msgErroConfirmacao.style.visibility = "visible";
-        confirmarNovaSenha.classList.add('input-ontline');
-    } else {
-        msgErroConfirmacao.style.visibility = "hidden";
-        confirmarNovaSenha.classList.remove('input-ontline');
-    }
-}
-
-function toggleIconeMostrarSenha(campoToggleSenha) {
-    const campo = campoToggleSenha === "novaSenha" ? novaSenha : confirmarNovaSenha;
-    const iconeSenha = campoToggleSenha === "novaSenha" ? iconeNovaSenha : iconeConfirmarNovaSenha;
-
-    if (campo.type === "password") {
-        campo.type = "text";
-        iconeSenha.classList.remove("ri-eye-off-fill");
-        iconeSenha.classList.add("ri-eye-fill");
-    } else {
-        campo.type = "password";
-        iconeSenha.classList.remove("ri-eye-fill");
-        iconeSenha.classList.add("ri-eye-off-fill");
-    }
+    // Função para confirmar a nova senha
 }
 
 function definirNovaSenha() {
-    const usuarios = lerUsuariosDoLocalStorage();
-
-    const indexUsuario = encontrarIndexUsuario();
-
-    if (indexUsuario === -1) {
-        return;
-    }
-
-    if (novaSenha.value === confirmarNovaSenha.value && novaSenha.value !== "" && confirmarNovaSenha.value !== "") {
-
-        usuarios[indexUsuario].passwordUserCad = novaSenha.value;
-        usuarios[indexUsuario].passwordUserConfirmCad = confirmarNovaSenha.value;
-
-        localStorage.setItem('listUser', JSON.stringify(usuarios));
-
-        alert('Senha alterada com sucesso!');
-        modalRecuperarSenha.hide();
-
-    } else {
-
-        alert('Senha inválida. Tente novamente.');
-    }
+    // Função para definir a nova senha
 }
 
+<<<<<<< HEAD
+function toggleIconeMostrarSenha(inputId) {
+    const input = document.getElementById(inputId);
+    const icon = document.querySelector(`#${inputId} + i`);
+
+    if (input.type === 'password') {
+        input.type = 'text';
+        icon.classList.remove('ri-eye-off-fill');
+        icon.classList.add('ri-eye-fill');
+    } else {
+        input.type = 'password';
+        icon.classList.remove('ri-eye-fill');
+        icon.classList.add('ri-eye-off-fill');
+    }
+}
+=======
 const login = document.getElementById('login');
 const senha = document.getElementById('senha');
 
@@ -193,3 +214,4 @@ function validarUsuarioSenha() {
         window.location.href = '../index.html';
     }
 }
+>>>>>>> 94a63e6ea52b31414275e9678b8416dcdc83a157
