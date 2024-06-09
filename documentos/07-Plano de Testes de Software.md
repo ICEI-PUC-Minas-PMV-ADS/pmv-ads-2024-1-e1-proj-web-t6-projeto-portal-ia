@@ -60,17 +60,8 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Objetivo do Teste | RF-03: Verificar a presença e funcionalidade do campo de busca.  RF-04: Filtros por Palavras-chave: Verificar a presença e funcionalidade dos filtros por palavras-chave.  RF-08: Links Direcionando para a IA Selecionada: Verificar se os links direcionam corretamente para a IA selecionada. |
 | Passos | 1 - Verifique se o campo de busca está presente na página inicial.
 Digite um termo de pesquisa e verifique os resultados.
-Digite um termo inexistente e verifique a resposta da aplicação.
-2 - Verifique se os filtros (e.g., Todos, Estudos, Trabalho, Lazer, Marketing) estão presentes na página inicial.
-Clique em cada filtro e verifique os resultados.
-3 - Verifique se cada cartão de IA contém um link "Acessar".
-Clique no link "Acessar" e verifique o redirecionamento.|
-| Critérios de êxito | 1 - Resultado Esperado:
-O campo de busca deve estar visível.
-Resultados devem aparecer de acordo com o termo pesquisado.
-Mensagem apropriada deve ser exibida para termos inexistentes.
-2 - Os filtros devem estar visíveis.
-Resultados devem aparecer de acordo com o filtro aplicado.
-3 - Todos os cartões de IA devem conter um link "Acessar".
-O redirecionamento deve levar para a página da IA correspondente.|
+Digite um termo inexistente e verifique a resposta da aplicação.<br>2 Verifique se os filtros (e.g., Todos, Estudos, Trabalho, Lazer, Marketing) estão presentes na página inicial.
+Clique em cada filtro e verifique os resultados. <br>3Verifique se cada cartão de IA contém um link "Acessar".Clique no link "Acessar" e verifique o redirecionamento.|
+| Critérios de êxito | 1 - Resultado Esperado:O campo de busca deve estar visível.Resultados devem aparecer de acordo com o termo pesquisado.Mensagem apropriada deve ser exibida para termos inexistentes.
+<br>2Os filtros devem estar visíveis.Resultados devem aparecer de acordo com o filtro aplicado. <br>3Todos os cartões de IA devem conter um link "Acessar".O redirecionamento deve levar para a página da IA correspondente.|
 | Responsável | Willian Abreu |
