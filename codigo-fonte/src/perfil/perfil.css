@@ -79,7 +79,7 @@ video {
     align-self: center;
 }
 
-.perfil input#nome {
+.perfil input#campoNome {
     width: 31rem;
     height: 2.5rem;
     border-radius: 7px;
@@ -107,6 +107,8 @@ video {
     padding-bottom: 0.5rem;
     font-weight: 600;
 }
+
+
 
 .perfil p {
     color: #fafafa;
