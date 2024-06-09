@@ -70,3 +70,28 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Passos | 1. Fazer login no sistema com um usuário válido.<br>2. Navegar até a tela de perfil.<br>3. Verificar que todos os campos obrigatórios estão presentes e vazios (ou com dados de exemplo se aplicável).<br>4. Preencher todos os campos de acordo com as exigências de validação (ex: formatos de data, restrições de caracteres, etc.).<br>5. Fazer upload de uma nova imagem/foto de perfil.<br>6. Verificar que a nova imagem foi salva e está sendo exibida corretamente.<br>7. Salvar as alterações.<br>8. Fazer logout e login novamente para garantir que as alterações persistem. |
 | Critérios de êxito | 1. O usuário consegue visualizar a tela de perfil após o login.<br>2. Todos os campos podem ser preenchidos corretamente.<br>3. Mensagens de erro são exibidas para entradas inválidas.<br>4. A imagem/foto de perfil pode ser alterada e a nova imagem é exibida corretamente.<br>5. As alterações nos dados e na imagem persistem após o logout e login novamente.|
 | Responsável | Winnie Yvelise.|
+
+
+**Caso de Teste** | **CT-10 - Tela de Login**
+
+## Descrição
+Este caso de teste verifica se o sistema valida corretamente o usuário e a senha fornecidos pelo usuário no formulário de login.
+
+## Passos
+1. Abra a página de login do sistema.
+2. Insira um nome de usuário válido e uma senha válida nos campos correspondentes.
+3. Clique no botão "Confirmar" para efetuar o login.
+
+## Expectativa
+- O sistema deve validar as credenciais inseridas.
+- Se as credenciais estiverem corretas, o sistema deve redirecionar o usuário para a página inicial do sistema.
+- Se as credenciais estiverem incorretas, o sistema deve exibir uma mensagem de erro indicando que o usuário ou a senha é inválido.
+
+## Resultado Esperado
+- O sistema deve permitir o login apenas para usuários com credenciais válidas.
+- O sistema deve exibir mensagens de erro adequadas para credenciais inválidas.
+
+## Nota
+Esse caso de teste verifica se o sistema está validando corretamente as credenciais do usuário durante o processo de login. Certifique-se de realizar o teste com diferentes combinações de credenciais válidas e inválidas para garantir que o sistema esteja funcionando conforme o esperado.
+
+**Responsável: Hiago Tavares**
