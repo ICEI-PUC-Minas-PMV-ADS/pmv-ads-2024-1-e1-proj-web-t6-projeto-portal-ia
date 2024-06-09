@@ -72,26 +72,13 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Responsável | Winnie Yvelise.|
 
 
-**Caso de Teste** | **CT-10 - Tela de Login**
 
-## Descrição
-Este caso de teste verifica se o sistema valida corretamente o usuário e a senha fornecidos pelo usuário no formulário de login.
-
-## Passos
-1. Abra a página de login do sistema.
-2. Insira um nome de usuário válido e uma senha válida nos campos correspondentes.
-3. Clique no botão "Confirmar" para efetuar o login.
-
-## Expectativa
-- O sistema deve validar as credenciais inseridas.
-- Se as credenciais estiverem corretas, o sistema deve redirecionar o usuário para a página inicial do sistema.
-- Se as credenciais estiverem incorretas, o sistema deve exibir uma mensagem de erro indicando que o usuário ou a senha é inválido.
-
-## Resultado Esperado
-- O sistema deve permitir o login apenas para usuários com credenciais válidas.
-- O sistema deve exibir mensagens de erro adequadas para credenciais inválidas.
-
-## Nota
-Esse caso de teste verifica se o sistema está validando corretamente as credenciais do usuário durante o processo de login. Certifique-se de realizar o teste com diferentes combinações de credenciais válidas e inválidas para garantir que o sistema esteja funcionando conforme o esperado.
-
-**Responsável: Hiago Tavares**
+| **Caso de Teste**    | **CT-10 - Tela de Login** |
+|:---|:---|
+| Requisitos Associados | RF-10 |
+| **Descrição** | Este caso de teste verifica se o sistema valida corretamente o usuário e a senha fornecidos pelo usuário no formulário de login. |
+| **Passos** | 1 - Abra a página de login do sistema.<br>2 - Insira um nome de usuário válido e uma senha válida nos campos correspondentes.<br>3 - Clique no botão "Confirmar" para efetuar o login. |
+| **Expectativa** | 1 - O sistema deve validar as credenciais inseridas.<br>2 - Se as credenciais estiverem corretas, o sistema deve redirecionar o usuário para a página inicial do sistema.<br>3 - Se as credenciais estiverem incorretas, o sistema deve exibir uma mensagem de erro indicando que o usuário ou a senha é inválido. |
+| **Resultado Esperado** | 1 - O sistema deve permitir o login apenas para usuários com credenciais válidas.<br>2 - O sistema deve exibir mensagens de erro adequadas para credenciais inválidas. |
+| **Nota** | Esse caso de teste verifica se o sistema está validando corretamente as credenciais do usuário durante o processo de login. Certifique-se de realizar o teste com diferentes combinações de credenciais válidas e inválidas para garantir que o sistema esteja funcionando conforme o esperado. |
+| **Responsável** | Hiago Tavares |
