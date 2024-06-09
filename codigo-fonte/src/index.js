@@ -27,9 +27,7 @@ function buscaUsuarioDaListaDeUsuarios() {
     for (let i = 0; i < usuarios.length; i++) {
         const usuario = usuarios[i];
 
-        console.log('aaaaaaaaaa', usuarioLogado, 'bbbbbbbbbbbbb', usuario.emailCad, 'cccccccccccccc', usuarioLogado == usuario.emailCad);
         if (usuarioLogado == usuario.emailCad) {
-            console.log('entrou');
             return i;
         }
 
