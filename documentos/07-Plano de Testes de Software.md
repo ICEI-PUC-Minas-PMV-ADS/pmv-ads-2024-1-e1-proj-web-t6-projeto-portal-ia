@@ -50,7 +50,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 |:---|:---|
 | Requisitos Associados | RF-03 e RF-05 |
 | Objetivo do Teste | Verificar se o filtro de pesquisa funciona corretamente e se todos os links na página inicial estão funcionando conforme esperado. |
-| Passos | 1 - Navegar pela página inicial e localizar o filtro de pesquisa.<br>2 - Inserir diferentes termos de pesquisa no campo e pressionar "Enter" ou clicar no ícone de busca.<br>3 - Verificar se você está sendo redirecionado corretamente para a página de resultados de busca.<br>4 - Confirmar se os resultados exibidos correspondem aos termos de pesquisa inseridos <br>5 - Navegar pela página inicial e clicar em todos os links disponíveis.<br>6 - Verificar se todos os links redirecionam para as páginas corretas e sem erros. |
+| Passos | 1 - Navegar pela página inicial e localizar o filtro de pesquisa.<br>2 - Inserir diferentes termos de pesquisa no campo e pressionar "Enter".<br>3 - Verificar se você está sendo redirecionado corretamente para a página de resultados.<br>4 - Confirmar se os resultados exibidos correspondem aos termos de pesquisa inseridos <br>5 - Navegar pela página inicial e clicar em todos os links disponíveis.<br>6 - Verificar se todos os links redirecionam para as páginas corretas e sem erros. |
 | Critérios de êxito | 1 - O filtro de pesquisa deve exibir resultados relevantes e corretos para os termos de pesquisa inseridos.<br>2 - A página de resultados de busca deve carregar corretamente após a busca.<br>3 - Todos os filtros adicionais devem funcionar corretamente e refinar os resultados conforme esperado.<br>4 - Todos os links na página inicial devem redirecionar para as páginas corretas sem erros. |
 | Responsável | Jéssica Melo. |
 
