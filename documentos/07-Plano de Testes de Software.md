@@ -72,7 +72,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 | Responsável | Winnie Yvelise.|
 
 
-|Caso de Teste    | CT-11 - Tela de Login - Recuperar Senha |
+|Caso de Teste    | CT-08 - Tela de Login - Recuperar Senha |
 |:---|:---|
 | Requisitos Associados |  |
 | Objetivo do Teste |Validar a funcionalidade de recuperação de senha.|
