@@ -99,10 +99,28 @@ ________________________________________________________________________________
 
 | Caso de Teste                              | CT-07 - Tela de Perfil                                                                                                                    |
 | :----------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------- |
-| Resultados obtidos                         | Critério 1: ---------. <br/>Critério 2: --------. <br/>Critério 3: ---------. <br/>Critério 4: -----------. <br/>Critério 5: -----------. |
-| Responsável pela execução do caso de Teste | Jessica Melo                                                                                                                              |
+| Resultados obtidos                         | Critério 1: O usuário consegue visualizar a tela de perfil após o login. <br/>Critério 2: Todos os campos estão sendo preenchidos corretamente. <br/>Critério 3: O campo fica vermelho quando não preenchido corretamente, uma possível melhora no futuro é o bloqueio do botão confirmar para não ser possível o envio. <br/>Critério 4: A imagem/foto de perfil está sendo alterada e mostrada com sucesso e sendo salva no LocalStorage. <br/>Critério 5: As alterações nos dados e na imagem persistem após o logout e login novamente (Não foi implementado, não consegui encontrar o botão de sair). |
+| Responsável pela execução do caso de Teste | Jessica Melo                                                                                                                            |
 
 - Critérios 1, 2 ,3, 4 e 5;
+
+**Part1**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/16e591c8-b177-44c6-b623-591dcc64580b
+
+**Part2**
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/f5794ba8-c023-4816-8caf-67cbaf90b4d1
+
+Mostrando o localStorage funcionando
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/4f9ec6c0-25de-4997-9d4b-cd3bef192d4b)
+
+
+Mostrando o error
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/106626495/dc780b96-c9eb-4f37-9ebb-a7defd61a87e)
+
 
 
 ____________________________________________________________________________________________________________________________________________________________
@@ -110,7 +128,7 @@ ________________________________________________________________________________
 | Caso de Teste                              | CT-08 - Tela de Login - Recuperar Senha                                                                                                                                                                                                 |
 | :----------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Resultados obtidos                         | Critério 1: O usuário consegue visualizar a tela de perfil após o login corretamente. <br/>Critério 2: Todos os campos podem ser preenchidos corretamente.. <br/>Critério 3: As mensagens de erro são exibidas para entradas inválidas. |
-| Responsável pela execução do caso de Teste | Jessica Melo                                                                                                                                                                                                                            |
+| Responsável pela execução do caso de Teste |  Winnie Yvelise                                                                                                                                                                                                                           |
 
 - Critérios 1, 2 e 3;
 
