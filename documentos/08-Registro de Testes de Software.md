@@ -68,6 +68,15 @@ ________________________________________________________________________________
 | Responsável pela execução do caso de Teste | Winnie Yvelise                                                                                                                                                                                                                               |
 
 - Critérios 1, 2 e 3;
+
+Parte 1
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164056803/392c0ee0-108f-4b6c-a575-7f243c224f33
+
+Parte 2
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164056803/03055cfb-e368-49e0-a151-705cf455c757
+
   
 
 | Caso de Teste                              | CT-05.1 - Tela Inicial                                                                                                                                                                                                                                                                                        |
@@ -76,6 +85,14 @@ ________________________________________________________________________________
 | Responsável pela execução do caso de Teste | Winnie Yvelise                                                                                                                                                                                                                                                                                                |
 
 - Critérios 1, 2 ,3 e 4;
+
+Parte 1
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164056803/0d697f8e-13a4-4196-b589-7c22d216e850
+
+Parte 2
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/assets/164056803/25a29270-5a97-4410-8e03-b27e88544866
 
 
 ____________________________________________________________________________________________________________________________________________________________
