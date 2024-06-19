@@ -6,8 +6,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link href="/codigo-fonte/src/contato/contato.css" rel="stylesheet">
-    <link href="/codigo-fonte/src/contato/contato.js" rel="stylesheet">
+    <link href="contato.css" rel="stylesheet">
+    <link defer href="contato.js" rel="stylesheet">
 </head>
 
 <body class="contato-background">
@@ -103,15 +103,18 @@
                             <div class="form-row thirdMiniMLeft">
                                 <div class="allWidth">
                                     <label for="validationServer02">Email</label>
-                                    <input type="text" class="form-control" id="emailInput" placeholder="Email" required>
+                                    <input type="text" class="form-control" id="emailInput" placeholder="Email"
+                                        required>
                                 </div>
                             </div>
                             <div class="form-row miniMTop thirdMiniMLeft twentyHeight">
                                 <label for="validationTextarea">Mensagem</label>
-                                <textarea class="form-control" id="textInput" placeholder="Mensagem" required style="height: 150px !important; "></textarea>
+                                <textarea class="form-control" id="textInput" placeholder="Mensagem" required
+                                    style="height: 150px !important; "></textarea>
                             </div>
                             <div class="form-row miniMTop secondMiniMLeft">
-                                <button class="btn btn-outline-success my-2 my-sm-0 buttonStyle" onclick="submitButton()">Enviar</button>
+                                <button class="btn btn-outline-success my-2 my-sm-0 buttonStyle"
+                                    onclick="submitButton()">Enviar</button>
                             </div>
                         </form>
                     </div>
