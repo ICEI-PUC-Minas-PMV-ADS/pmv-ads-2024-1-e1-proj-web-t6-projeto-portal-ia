@@ -2,31 +2,18 @@
 
 ## Conjunto de Slides
 
-A apresentação do projeto consiste na geração de um conjunto de slides em um arquivo no formato ppt, pptx ou pdf, contemplando os seguintes itens:
+1. Apresentação de slides
 
-> - Contexto (Problema, Público-alvo)
-> - Requisitos
-> - Solução Implementada (funcionalidades de software)
-> - Conclusão da elaboração do projeto (pontos positivos, desafios, aprendizado).
+      - [Apresentação - I.A Explorer.pdf](https://github.com/user-attachments/files/15961657/Apresentacao.projeto.A.I.Explorer.pdf)
 
-[Adicione pdf de apresentação.]
+2. Vídeo de apresentação do projeto
 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
+      - [Apresentação do projeto](https://sgapucminasbr-my.sharepoint.com/personal/1506186_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EaLzb38p0bxFjIi0V0fgSKEBM02RkFP8qlYx0o2xAX78Sw&e=o6kpaR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-## Vídeo de apresentação
+3. Vídeo de apresentação das funcionalidades
 
-A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a apresentação da solução. Vocês deverão abrir a aplicação hospedada e apresentar o seu funcionamento.  Poderão ser utilizados quaisquer recursos na montagem do vídeo, mas não se esqueçam de mostrar as funcionalidades da aplicação. Seguem as especificações técnicas que devem ser obedecidas na geração do vídeo:
-
-> - tamanho do arquivo limitado a 90Mb
-> - taxa de FPS limitada a 30 quadros por segundo
-> - resolução HD (720p) ou Full HD (1080p)
-> - formato mp4.
-
-[Adicione vídeo de apresentação.]
+      - [Apresentação das funcionalidades](https://sgapucminasbr-my.sharepoint.com/personal/1506186_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=EWMV9TeS4DBJmQ-VyoZ1SFgBLvnhWhZeUyPLQqUfj_IXDA&e=2tdRQl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ## Hospedagem
 
-[Adicione o endereço eletrônico público onde o site encontra-se hospedado.]
+  - [Site A.I Explorer.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia/codigo-fonte/src/index.html)
