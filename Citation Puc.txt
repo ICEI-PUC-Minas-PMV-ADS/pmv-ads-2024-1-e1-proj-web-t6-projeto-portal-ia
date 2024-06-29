@@ -1,5 +1,5 @@
 message: Please cite this software using these metadata.
-title:
+title: A.I Explorer
 authors:
   - family-names: de Arruda Nicolau Santos
     given-names: Cássia
