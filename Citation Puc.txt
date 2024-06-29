@@ -1,0 +1,29 @@
+message: Please cite this software using these metadata.
+title:
+authors:
+  - family-names: de Arruda Nicolau Santos
+    given-names: Cássia
+  - family-names: Antonio Silveira
+    given-names: Hiago
+  - family-names: Cristina Araújo Lima de Melo
+    given-names: Jéssica
+  - family-names:  Marques Leite
+    given-names: Tiago
+  - family-names: Carlos de Abreu
+    given-names: Willian
+  - family-names: Yvelise Brandão
+    given-names: Winnie
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: de Assis Alves da Silva
+    given-names: Simone
+keywords:
+  - Portal
+  - I.A
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t6-projeto-portal-ia
+version: 1.0.0
+date-released: 2023-10-31
